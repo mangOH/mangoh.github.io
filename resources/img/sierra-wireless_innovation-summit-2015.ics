@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+PRODID:-//Conference Center Version 03fd92dd086965eae320fd3d7b8faef70bacbd45//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART:20150617T063000Z
+DTEND:20150617T163000Z
+DTSTAMP:20150613T171200Z
+UID:20150617T063000Z@summit.sierrawireless.com
+CLASS:PUBLIC
+CREATED:20150613T171200Z
+DESCRIPTION:Sierra Wireless Innovation Summit 2015\n
+ \n
+ Hotel Novotel Paris Tour Eiffel\n
+ 61 Quai de Grenelle\n
+ 75015 Paris\n 
+ France\n
+ \n
+ Agenda:\n
+ 08:30-08:55  Check-in & welcome breakfast \n
+ 09:00-10:20  keynotes/plenary \n
+ 10:20-10:50  morning refreshments in demo exhibit hall \n
+ 10:50-12:00  keynotes/plenary cont'd \n
+ 12:00-14:00  buffet lunch in demo exhibit hall \n
+ 14:00-15:30  afternoon breakout tracks \n
+ 15:30-16:00  afternoon refreshments in demo exhibit hall \n
+ 16:00-17:30  afternoon breakout tracks cont'd \n
+ 17:30-20:00  cocktail reception in demo exhibit hall \n
+ \n
+ Website: http://summit.sierrawireless.com\n
+ Update your registration: https://www.regonline.com/swiris (have you 
+ booked your seat in one of the 3 breakout sessions in the 
+ afternoon?)\n
+LAST-MODIFIED:20150613T171200Z
+LOCATION:Hotel Novotel Paris Tour Eiffel, 61 Quai de Grenelle, 75015 Paris
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Sierra Wireless Innovation Summit 2015
+BEGIN:VALARM
+TRIGGER:-PT1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
