@@ -867,7 +867,7 @@ div.feature {
 	position: relative;
 	float: left;
 	background-color: transparent; /*rgba(135,181,39,1);*/
-	padding: 0 0 1% 80px;
+	padding: 10px 0 10px 80px;
 	margin-right: 4%;
 	margin-bottom: 4%;
 	font-size: 11px;
@@ -876,7 +876,47 @@ div.feature {
 }
 
 div.feature01 {
-	background: url("../img/mangoh_member_placeholder.png") no-repeat top left;
+	background: url("../img/mangoh_feature_01.png") no-repeat top left;
+	background-size: 64px 64px;
+}
+
+div.feature02 {
+	background: url("../img/mangoh_feature_02.png") no-repeat top left;
+	background-size: 64px 64px;
+}
+
+div.feature03 {
+	background: url("../img/mangoh_feature_03.png") no-repeat top left;
+	background-size: 64px 64px;
+}
+
+div.feature04 {
+	background: url("../img/mangoh_feature_04.png") no-repeat top left;
+	background-size: 64px 64px;
+}
+
+div.feature05 {
+	background: url("../img/mangoh_feature_05.png") no-repeat top left;
+	background-size: 64px 64px;
+}
+
+div.feature06 {
+	background: url("../img/mangoh_feature_06.png") no-repeat top left;
+	background-size: 64px 64px;
+}
+
+div.feature07 {
+	background: url("../img/mangoh_feature_07.png") no-repeat top left;
+	background-size: 64px 64px;
+}
+
+div.feature08 {
+	background: url("../img/mangoh_feature_08.png") no-repeat top left;
+	background-size: 64px 64px;
+}
+
+div.feature09 {
+	background: url("../img/mangoh_feature_09.png") no-repeat top left;
 	background-size: 64px 64px;
 }
 
@@ -913,12 +953,13 @@ div#iot_modules, div#casings_3d-printings, div#opensource_licence {
 }
 
 div#application_processors h3, div#iot_modules h3, div#casings_3d-printings h3, div#opensource_licence h3 {
-	font-family: 'os_lt', sans-serif;
+	font-family: 'l-rg', sans-serif;
 	font-weight: normal;
 	display: block;
 	font-size: 32px;
 	display: block;
 	padding-bottom: 40px;
+	line-height: 30px;
 }
 
 div#application_processors h4 {
