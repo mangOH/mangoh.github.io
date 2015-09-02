@@ -603,6 +603,12 @@ div#overview h2 {
 	color: rgba(0,0,0,0.4);
 }
 
+div#overview a {
+	color: rgba(255,255,255,1);
+	border-bottom: 1px dashed #FFF;
+	font-family: 'os_rg', sans-serif;
+}
+
 div#overview_features-members {
 	line-height: 28px;
 	margin: 0 auto;
@@ -620,7 +626,7 @@ div.overview_features {
 	padding: 4%;
 }
 
-div.overview_features ul {
+ul {
 	padding-left: 30px;
 }
 
