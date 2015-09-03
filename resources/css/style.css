@@ -616,7 +616,7 @@ div#information h5 {
 	top: 0px;
 	width: 100%;
 	z-index: 1000;
-	background: rgba(255,255,255,0.9);
+	background: rgba(255,255,255,1);
 	height: 80px;
 }
 
@@ -646,7 +646,7 @@ nav {
 
 nav a {
 	color: rgb(247,120,30);
-	font-size: 13px; 
+	font-size: 16px; 
 	padding: 9px 30px 28px 30px; 
 	border-bottom: 3px solid transparent;
 	-webkit-transition: all 0.5s ease-in-out;
