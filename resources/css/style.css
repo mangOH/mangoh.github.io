@@ -771,6 +771,11 @@ div.overview_features {
 	padding: 4%;
 }
 
+div.overview_features iframe {
+	width: 50%;
+	height: 316px;
+}
+
 ul {
 	padding-left: 30px;
 }
@@ -855,7 +860,7 @@ div#features {
 	padding-left: 4%;
 	padding-right: 37%;
 	padding-bottom: 100px;
-	background: url("../img/mangoh_overview.jpg") no-repeat right center rgba(245,245,245,1);
+	background: url("../img/mangoh_features.jpg") no-repeat right center rgba(245,245,245,1);
     background-size: 33%;
 }
 
@@ -871,7 +876,7 @@ div.feature {
 	margin-right: 4%;
 	margin-bottom: 4%;
 	font-size: 13px;
-    width: 37%;
+    width: 35%;
     line-height: 18px;
     height: 50px;
 }
