@@ -857,7 +857,7 @@ div.feature {
 	margin-right: 4%;
 	margin-bottom: 4%;
 	font-size: 13px;
-    width: 35%;
+    width: 33%;
     line-height: 18px;
     height: 50px;
 }
@@ -946,7 +946,7 @@ div#iot_modules, div#casings_3d-printings, div#opensource_license {
 	padding-top: 150px; /*padding-top: 0px; when one section */
 }
 
-div#application_processors h3, div#iot_modules h3, div#casings_3d-printings h3, div#opensource_license h3 {
+div#application_processors h3, div#iot_modules h3, div#casings_3d-printings h3, div#opensource_license h3, div#resources h3 {
 	font-family: 'l-rg', sans-serif;
 	font-weight: normal;
 	display: block;
@@ -1096,14 +1096,7 @@ div#resources h2 {
 }
 
 div#resources h3 {
-	font-family: 'os_lt', sans-serif;
-	font-weight: normal;
-	display: block;
-	font-size: 32px;
-	display: block;
-	padding-bottom: 40px;
 	color: rgba(247,120,30,1);
-	padding-top: 20px;
 }
 
 .white {
@@ -1281,7 +1274,85 @@ div#footer img {
 /******************
  *   RESPONSIVE   *
  ******************/
- 
+
+@media (max-width: 1130px) {
+	body {
+		font-size: 13px;
+	}
+	
+	div#introduction h2 {
+		font-size: 36px;
+	}
+	
+	div#introduction {
+		font-size: 18px;
+	}
+	
+	nav a {
+		font-size: 13px;
+		padding: 9px 20px 31px 20px;
+	}
+	
+	nav a.link-selected {
+		padding: 9px 20px 31px 20px; 
+	}
+	
+	div#overview h2, div#features h2, div#resources h2, div#partners h2, div#community h2 {
+		font-size: 36px;
+	}
+	
+	div#application_processors h3, div#iot_modules h3, div#casings_3d-printings h3, div#opensource_license h3, div#resources h3 {
+		font-size: 24px;
+		display: block;
+		padding-bottom: 20px;
+		line-height: 20px;
+	}
+	
+	div#application_processors h4 {
+		font-size: 18px;
+		padding-bottom: 10px;
+	}
+	
+	div#overview, div#features, div#resources, div#iot_modules, div#casings_3d-printings, div#opensource_license, div#resources, div#partners, div#community {
+		padding-top: 125px;
+		padding-bottom: 50px;
+		line-height: 18px;
+	}
+	
+	div#overview_features-members {
+		line-height: 18px;
+	}
+	
+	div#application_processors {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	
+	div.overview_learn-more iframe {
+		height: 155px;
+	}
+	
+	div.feature {
+		margin-bottom: 9%;
+		width: 30%;
+	}
+	
+	div.module {
+		width: 28%;
+	}
+	
+	div.module img {
+		width: 70%;
+		padding: 0 10%;
+	}
+	
+	div.module h5 {
+		font-size: 16px;
+		padding-bottom: 10px;
+	}
+}
+
+
 @media (max-width: 960px) {
 	#menu-trigger {
 		display: block;
