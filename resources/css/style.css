@@ -139,11 +139,11 @@ div.wrapper {
 #menu-trigger {
 	display: none;
     position: fixed;
-	top: 15px;
-	right: 1%;
-	color: #FFF;
-	font-size: 36px;
-	z-index: 15;
+    top: 25px;
+    right: 4%;
+    color: #FFF;
+    font-size: 24px;
+    z-index: 15;
 }
 
 .red {
@@ -770,6 +770,7 @@ div.overview_members {
 	bottom: 0;
 	left: 0;
 	width: 67%;
+	background-color: rgb(247,120,30);
 }
 
 .bottom img {
@@ -1299,6 +1300,7 @@ div#footer img {
 	
 	div#overview h2, div#features h2, div#resources h2, div#partners h2, div#community h2 {
 		font-size: 36px;
+		padding-bottom: 30px;
 	}
 	
 	div#application_processors h3, div#iot_modules h3, div#casings_3d-printings h3, div#opensource_license h3, div#resources h3 {
@@ -1357,15 +1359,16 @@ div#footer img {
 	#menu-trigger {
 		display: block;
 	}
+	
 	#top {
 		position: fixed;
 		left: auto;
 		top: 0px;
-		right: -200px;
+		right: -108px;
 		width: auto;
 		height: 100%;
 		z-index: 1;
-		width: 200px;
+		width: 108px;
 		transition: right 1s ease-in-out;
 		-moz-transition: right 1s ease-in-out;
 		-webkit-transition: right 1s ease-in-out;
@@ -1377,10 +1380,22 @@ div#footer img {
 	
 	#top header {
 		width: auto;
+		padding-top: 75px;
 	}
 	
 	#top nav {
 		position: static;
+	}
+	
+	nav a {
+		font-size: 11px;
+    	padding: 9px 0 15px 20px;
+	}
+	
+	nav a.link-selected {
+		padding: 9px 0 15px 20px;
+		color: rgb(135,181,39);
+		border-bottom: 3px solid #FFF;
 	}
 	
 	#top h1 {
@@ -1388,13 +1403,123 @@ div#footer img {
 	}
 	
 	#top h1 a {
-		position: relative;
-		top: auto;
+		position: absolute;
+		top: 0px;
+		left: 21px;
+		background-size: 100%;
 		background-position: center;
 		width: auto;
+		width: 50px;
+		text-align: center;
 	}
 	
 	#top a {
 		display: block;
 	}
+	
+	div.bg {
+		height: 568px;
+	}
+	
+	img.osh {
+		position: absolute;
+		width: 12vw;
+		top: 25px;
+		left: 4%;
+	}
+	
+	div#introduction {
+		padding-top: 30vw;
+		padding-bottom: 0;
+		font-size: 13px;
+	}
+	
+	div#introduction img.logo {
+		width: 75vw;
+		margin-bottom: 50px;
+	}
+	
+	div#introduction h2 {
+		font-size: 24px;
+		line-height: 24px;
+		padding-bottom: 10px;
+	}
+	
+	a.callaction, a.callactiongreen {
+		padding: 7px 15px;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		-ms-border-radius: 3px;
+		-o-border-radius: 3px;
+		border-radius: 3px;
+		font-size: 13px;
+		margin-top: 30px;
+	}
+		
+	div#overview h2, div#features h2, div#resources h2, div#partners h2, div#community h2 {
+		font-size: 24px;
+		padding-bottom: 20px;
+	}
+	
+	div#overview, div#features {
+		padding-top: 50px;
+		width: 92%;
+		padding-left: 4%;
+		padding-right: 4%;
+		padding-bottom: 50px;
+		background-image: none;
+	}
+	
+	div.overview_members {
+		width: 92%;
+		padding: 50px 4%;
+	}
+	
+	div.overview_learn-more {
+		width: 92%;
+		padding: 50px 4%;
+	}
+	
+	div.overview_learn-more h3, div.overview_members h3 {
+		font-size: 24px;
+		padding-bottom: 20px;
+	}
+	
+	.bottom {
+		position: relative;
+		width: 100%;
+	}
+	
+	.bottom img {
+		width: 25%;
+	}
+	
+	div#overview, div#features, div#resources, div#iot_modules, div#casings_3d-printings, div#opensource_license, div#resources, div#partners, div#community {
+		padding-top: 50px;
+		line-height: 18px;
+	}
+	
+	div.feature {
+		margin-bottom: 10%;
+		width: 75%;
+		height: auto;
+	}
+	
+	div.module {
+		width: 100%;
+	}
+	
+	div.module img {
+		width: 50%;
+		padding: 0 25%;
+	}
+	
+	div#application_processors h4 {
+		padding-top: 20px;
+	}
+	
+	div.module h5 {
+		padding-bottom: 5px;
+	}
+
 }
