@@ -24,7 +24,14 @@
 		// Small memu
 		$("#menu-trigger").click(function() {
 			$("#top")[this.opened ? "removeClass" : "addClass"]("menu-open");
+			$(this)[this.opened ? "removeClass" : "addClass"]("trigger-open");
 			this.opened = !this.opened;
+	    });
+		
+		$("#top a").click(function() {
+	        $("#top").removeClass("menu-open");
+			$("#menu-trigger").removeClass("trigger-open").get(0).opened = false;
+			
 	    });
 		
       });
