@@ -24,11 +24,14 @@
 }(function ($) {
     var slice = Array.prototype.slice; // save ref to original slice()
     var splice = Array.prototype.splice; // save ref to original slice()
+	
+	var checkStickyFn = null;
 
   var defaults = {
       topSpacing: 0,
       bottomSpacing: 0,
       className: 'is-sticky',
+	  checkStickyFn: null,
       wrapperClassName: 'sticky-wrapper',
       center: false,
       getWidthFrom: '',
@@ -40,6 +43,9 @@
     sticked = [],
     windowHeight = $window.height(),
     scroller = function() {
+		if(!checkSticky()) {
+			return;
+		}
       var scrollTop = $window.scrollTop(),
         documentHeight = $document.height(),
         dwh = documentHeight - windowHeight,
@@ -47,6 +53,7 @@
 
       for (var i = 0, l = sticked.length; i < l; i++) {
         var s = sticked[i],
+		
           elementTop = s.stickyWrapper.offset().top,
           etse = elementTop - s.topSpacing - extra;
 
@@ -112,8 +119,10 @@
       }
     },
     resizer = function() {
+		if(!checkSticky()) {
+			return;
+		}
       windowHeight = $window.height();
-
       for (var i = 0, l = sticked.length; i < l; i++) {
         var s = sticked[i];
         var newWidth = null;
@@ -129,9 +138,16 @@
         }
       }
     },
+	checkSticky = function() {
+		if(typeof checkStickyFn === "function") {
+			return checkStickyFn();
+		}
+		return true;
+    },
     methods = {
       init: function(options) {
         var o = $.extend({}, defaults, options);
+		checkStickyFn = o.checkStickyFn;
         return this.each(function() {
           var stickyElement = $(this);
 

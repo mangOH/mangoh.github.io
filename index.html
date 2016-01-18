@@ -19,10 +19,26 @@
     <script src="resources/js/jquery.sticky.js"></script>
 	<script>
       $(document).ready(function(){
-        $("#top").sticky({topSpacing:0});
-		$(".palette").sticky({topSpacing:0});
+		var menuTrigger = $("#menu-trigger");
+		var isActive = true;
+		var checkSticky = function() {
+			var isVisible = menuTrigger.is(":visible");
+			if(isActive && isVisible) {
+				$("#top").unstick();
+				$(".palette").unstick();
+				isActive = false;
+			} else if(!isActive && !isVisible) {
+		 		$("#top").sticky({topSpacing:0, checkStickyFn:checkSticky});
+				$(".palette").sticky({topSpacing:0, checkStickyFn:checkSticky});
+				isActive = true;
+			}
+			return isActive;
+		};
+		  
+        $("#top").sticky({topSpacing:0, checkStickyFn:checkSticky});
+		$(".palette").sticky({topSpacing:0, checkStickyFn:checkSticky});
 		// Small memu
-		$("#menu-trigger").click(function() {
+		menuTrigger.click(function() {
 			$("#top")[this.opened ? "removeClass" : "addClass"]("menu-open");
 			$(this)[this.opened ? "removeClass" : "addClass"]("trigger-open");
 			this.opened = !this.opened;
