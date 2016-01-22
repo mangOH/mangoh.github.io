@@ -78,10 +78,10 @@ html, body {
 
 body {
 	font-family: 'os_lt', arial, sans;
-	color: rgb(120,120,120);
 	text-rendering: optimizeLegibility;
 	font-size: 16px;
 	color: rgba(128,128,128,1);
+	background-color: rgba(245,245,245,1);
 }
 
 a {
@@ -1260,13 +1260,115 @@ div#contact a:hover {
 	color: #e53b30;
 }
 
+
+/******************
+ *    CONTENT     *
+ ******************/
+
+h2.pagetitle {
+	position: relative;
+	margin: 0;
+	padding: 30px 0px 0px 0px;
+	font-weight: normal;
+	height: 120px;
+	padding-left: 10%;
+	font-family: 'l-rg', sans-serif;
+    display: block;
+    font-size: 48px;
+	color: #FFF;
+}
+
+.center {
+	text-align: center;
+}
+
+.mangohgreen {
+	background: url("../img/mangoh_features.jpg") center right no-repeat;
+	background-size: 50%;
+}
+
+.buymangoh {
+	background: url("../img/buy-mangoh_bg.jpg") center right no-repeat;
+	background-size: 50%;
+}
+
+.beebg {
+	background: url("../img/pattern.png");
+	background-size: 10%;
+}
+
+.opacity50 {
+	opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.opacity75 {
+	opacity: 0.75;
+    filter: alpha(opacity=75);
+}
+
+.greenbg {
+	background-color: rgba(135,181,39,1);
+}
+.orangebg {
+	background-color: rgba(247,120,30,1);
+}
+.whitebg {
+	background-color: rgba(255,255,255,1);
+}
+
+.orange {
+	color: rgba(247,120,30,1);
+}
+.green {
+	color: rgba(135,181,39,1);
+}
+
+.big {
+	font-size: 24px;
+}
+.first {
+	clear: left;
+}
+
+div.content {
+	position: relative;
+	padding: 50px 10%;
+}
+
+div.content h3 {
+	font-family: 'l-rg', sans-serif;
+    font-weight: normal;
+    display: block;
+    font-size: 36px;
+    display: block;
+    padding-bottom: 40px;
+    line-height: 30px;
+}
+
+div.content div.feature {
+    width: 16%;
+    padding: 10px 0 10px 150px;
+    font-size: 16px;
+    line-height: 24px;
+    height: 100px;
+}
+
+div.content div.feature h4 {
+    font-size: 24px;
+}
+
+div.content div.feature01, div.content div.feature02, div.content div.feature03, div.content div.feature04, div.content div.feature05, div.content div.feature06, div.content div.feature07, div.content div.feature08, div.content div.feature09 {
+    background-size: 128px 128px;
+}
+
 /******************
  *     FOOTER     *
  ******************/
  
 div#footer {
-	background-color: #000;
-	color: #666;
+	background-color: rgba(135,181,39,1);
+	color: #fff;
 	height: 1vw;
 	font-size: 1vw;
 	text-align: center;
