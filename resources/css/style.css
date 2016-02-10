@@ -1292,6 +1292,12 @@ h2.pagetitle {
 	background-size: 50%;
 }
 
+.buildyourown {
+	background: url("../img/mangoh_features.jpg") right no-repeat;
+    background-size: 50%;
+    background-position: right -360px;
+}
+
 .beebg {
 	background: url("../img/pattern.png");
 	background-size: 10%;
