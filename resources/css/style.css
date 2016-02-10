@@ -864,7 +864,7 @@ div.feature {
 	float: left;
 	background-color: transparent; /*rgba(135,181,39,1);*/
 	padding: 10px 0 10px 80px;
-	margin-right: 4%;
+	margin-right: 2%;
 	margin-bottom: 4%;
 	font-size: 13px;
     width: 33%;
@@ -1347,15 +1347,15 @@ div.content h3 {
 }
 
 div.content div.feature {
-    width: 16%;
+    width: 15%;
     padding: 10px 0 10px 150px;
-    font-size: 16px;
-    line-height: 24px;
-    height: 100px;
+    font-size: 13px;
+    height: 150px;
 }
 
 div.content div.feature h4 {
     font-size: 24px;
+	line-height: 24px;
 }
 
 div.content div.feature01, div.content div.feature02, div.content div.feature03, div.content div.feature04, div.content div.feature05, div.content div.feature06, div.content div.feature07, div.content div.feature08, div.content div.feature09 {
@@ -1446,9 +1446,11 @@ div#footer img {
 		height: 155px;
 	}
 	
-	div.feature {
+	div.feature, div.content div.feature {
 		margin-bottom: 9%;
 		width: 30%;
+		padding-left: 90px;
+		height: 100px;
 	}
 	
 	div.module {
@@ -1464,6 +1466,10 @@ div#footer img {
 		font-size: 16px;
 		padding-bottom: 10px;
 	}
+	
+	div.content div.feature01, div.content div.feature02, div.content div.feature03, div.content div.feature04, div.content div.feature05, div.content div.feature06, div.content div.feature07, div.content div.feature08, div.content div.feature09 {
+		background-size: 64px 64px;
+	}
 }
 
 
@@ -1476,11 +1482,11 @@ div#footer img {
 		position: fixed;
 		left: auto;
 		top: 0px;
-		right: -108px;
+		right: -150px;
 		width: auto;
 		height: 100%;
 		z-index: 1;
-		width: 108px;
+		width: 150px;
 		transition: right 1s ease-in-out;
 		-moz-transition: right 1s ease-in-out;
 		-webkit-transition: right 1s ease-in-out;
@@ -1541,14 +1547,15 @@ div#footer img {
 	}
 	
 	div#introduction {
-		padding-top: 30vw;
+		padding-top: 7vw;
 		padding-bottom: 0;
 		font-size: 13px;
+		height: 300px;
 	}
 	
 	div#introduction img.logo {
-		width: 75vw;
-		margin-bottom: 50px;
+		width: 40vw;
+		margin-bottom: 25px;
 	}
 	
 	div#introduction h2 {
@@ -1611,10 +1618,36 @@ div#footer img {
 		line-height: 18px;
 	}
 	
-	div.feature {
+	.big {
+    	font-size: 16px;
+	}
+	
+	div.content div.feature h4 {
+		font-size: 18px;
+		line-height: 18px;
+	}
+
+	div.feature, div.content div.feature {
 		margin-bottom: 10%;
-		width: 75%;
-		height: auto;
+		width: 60%;
+		height: 100px;
+	}
+	
+	div.content h3 {
+		font-family: 'l-rg', sans-serif;
+		font-weight: normal;
+		display: block;
+		font-size: 24px;
+		display: block;
+		padding-bottom: 40px;
+		line-height: 30px;
+	}
+	
+	h2.pagetitle {
+		height: 85px;
+		padding-left: 10%;
+		font-size: 30px;
+		line-height: 30px;
 	}
 	
 	div.module {
