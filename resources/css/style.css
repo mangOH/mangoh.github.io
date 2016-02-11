@@ -1287,15 +1287,20 @@ h2.pagetitle {
 	background-size: 50%;
 }
 
-.buymangoh {
+.gettingstarted {
 	background: url("../img/buy-mangoh_bg.jpg") center right no-repeat;
 	background-size: 50%;
 }
-
-.buildyourown {
+.buymangoh {
 	background: url("../img/mangoh_features.jpg") right no-repeat;
     background-size: 50%;
     background-position: right -910px;
+}
+
+.buildyourown {
+	background: url("../img/buy-mangoh_bg.jpg") center right no-repeat;
+	background-size: 50%;
+    background-position: right -40px;
 }
 
 .beebg {
