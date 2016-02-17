@@ -9,6 +9,18 @@ html, body {
 }
 
 @font-face {
+    font-family: 'numbers';
+    src: url('../fonts/fyra.eot');
+    src: url('../fonts/fyra.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/fyra.woff') format('woff'),
+		 url('../fonts/fyra.woff2') format('woff2'),
+         url('../fonts/fyra.ttf') format('truetype'),
+         url('../fonts/fyra.svg#fyra') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'l-rg';
     src: url('../fonts/l-rg.eot');
     src: url('../fonts/l-rg.eot?#iefix') format('embedded-opentype'),
@@ -1308,6 +1320,16 @@ h2.pagetitle {
 	background-size: 10%;
 }
 
+.beebg25 {
+	background: url("../img/pattern25.png");
+	background-size: 10%;
+}
+
+.beebg15 {
+	background: url("../img/pattern15.png");
+	background-size: 10%;
+}
+
 .opacity50 {
 	opacity: 0.5;
     filter: alpha(opacity=50);
@@ -1316,6 +1338,11 @@ h2.pagetitle {
 .opacity75 {
 	opacity: 0.75;
     filter: alpha(opacity=75);
+}
+
+.opacity05 {
+	opacity: 0.25;
+    filter: alpha(opacity=25);
 }
 
 .greenbg {
@@ -1357,6 +1384,16 @@ div.content h3 {
     line-height: 30px;
 }
 
+div.content h4 {
+	font-family: 'l-rg', sans-serif;
+    font-weight: normal;
+    display: block;
+    font-size: 24px;
+    display: block;
+    padding-bottom: 30px;
+    line-height: 20px;
+}
+
 div.content div.feature {
     width: 15%;
     padding: 10px 0 10px 150px;
@@ -1373,6 +1410,13 @@ div.content div.feature01, div.content div.feature02, div.content div.feature03,
     background-size: 128px 128px;
 }
 
+.numbers {
+	font-family: 'numbers';
+	font-size: 48px;
+	padding-top: 15px;
+	display: block;
+	padding-bottom: 15px;
+}
 /******************
  *     FOOTER     *
  ******************/

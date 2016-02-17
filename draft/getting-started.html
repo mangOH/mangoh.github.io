@@ -2,7 +2,7 @@
 <html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Buy mangOH™ - Project mangOH™ - IoT open source hardware for industry</title>
+    <title>Getting started with mangOH™ - Project mangOH™ - IoT open source hardware for industry</title>
 	<meta name="description" content="Buy mangOH™ and facilitates the prototyping and the productization of IoT products for industry." />
 	<meta name="robots" content="noindex nofollow" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -135,18 +135,114 @@
             </header>
         </div>
         <h2 class="pagetitle orangebg gettingstarted">Getting started</h2>
-        <div class="content whitebg">
-        	<h3 class="orange">&nbsp;Title<br />_</h3>
-            <br clear="left" /><br /><br />
+        <div class="content big green center beebg opacity75">
+        	<span class="animated1">
+                <strong>Go ahead, build something new!</strong>
+                <br />
+                To get up and running quickly on your first mangOH™ Green board,<br />feel free to follow these discovery tutorials and step-by-step instructions.
+            </span>
         </div>
-        <div class="content">
-        	<h3 class="orange">&nbsp;Title<br />_</h3>
-            mangOH designs accepts the following CF3 modules &amp; application processors. To run properly, mangOH designs need 1 application processor supporting <a href="http://legato.io">Legato™</a>, an open source Linux-based O/S and application framework. Legato provides usefull librairies for applications running on mangOH™.
+        <div class="content whitebg">
+        	<h3 class="orange">&nbsp;Setup your Hardware<br />_</h3>
+            <br />
+            <div class="module center">
+                <img src="../resources/img/mangoh_fsn-imei.jpg" title="Note the serial number (FSN) and IMEI" style="width: 75%; padding: 0;" />
+                <span class="numbers green">1</span>
+                Note the serial number (FSN) and IMEI of your CF3 module (used later to identify your device)
+            </div>
+            <div class="module center">
+                <img src="../resources/img/mangoh_setup_step_2_cf3-module.gif" title="Mount the CF3 module" style="width: 75%; padding: 0;" />
+                <span class="numbers green">2</span>
+                Mount the CF3 module in the primary socket
+            </div>
+            <div class="module center">
+                <img src="../resources/img/mangoh_setup_step_3_rf-antenna.jpg" title="Connect main RF antenna" style="width: 75%; padding: 0;" />
+                <span class="numbers green">3</span>
+                Connect main RF antenna
+            </div>
+            <br clear="left" /><br /><br/>
+            <div class="module center">
+                <img src="../resources/img/mangoh_setup_step_4_gnss-antenna.jpg" title="Connect GNSS antenna" style="width: 75%; padding: 0;" />
+                <span class="numbers green">4</span>
+                Connect GNSS antenna
+            </div>
+            <div class="module center">
+                <img src="../resources/img/mangoh_setup_step_5_sim.jpg" title="Insert mini or micro SIM" style="width: 75%; padding: 0;" />
+                <span class="numbers green">5</span>
+                Insert mini or micro SIM (without PIN code)
+            </div>
+            <div class="module center">
+                <img src="../resources/img/mangoh_setup_step_6_power.jpg" title="Connect power supply" style="width: 75%; padding: 0;" />
+                <span class="numbers green">6</span>
+                Connect power supply
+            </div>
+            <br clear="left" /><br /><br/>
+            For more info, read the &nbsp;<a href="#" target="_blank" class="modulebutton"><i class="fa fa-book"></i> User Guide</a>
+            <br /><br />
+		</div>
+        <div class="content greenbg beebg15 center">
+        	<h3 class="white">Now you’re ready for the next step!</h3>
+            <br />
+            <div class="module center">
+                <a href="#helloworld" class="navlink" style="border-bottom: none; color: #FFF; cursor: pointer;">
+                	<img src="../resources/img/mangoh_gs_helloworld.png" title="HelloWorld" />
+                	<h5 class="white">HelloWorld</h5>
+                	Develop your first HelloWorld using Legato™
+                	<br /><br />
+                </a>
+            </div>
+        	<div class="module center">
+                <a href="#cloud" class="navlink" style="border-bottom: none; color: #FFF; cursor: pointer;">
+                	<img src="../resources/img/mangoh_gs_cloud.png" title="Cloud" />
+                	<h5 class="white">Cloud</h5>
+                	Connect to the Cloud
+                	<br /><br />
+                </a>
+            </div>
+        	<div class="module center">
+                <a href="#sensor" class="navlink" style="border-bottom: none; color: #FFF; cursor: pointer;">
+                	<img src="../resources/img/mangoh_gs_sensor.png" title="Sensor-To-Cloud" />
+                	<h5 class="white">Sensor-To-Cloud</h5>
+                	Sensor-To-Cloud fast prototype using Arduino
+                	<br /><br />
+                </a>
+            </div>
+            <br clear="left" /><br /><br/>
+        </div>
+        <div class="content" id="helloworld" style="padding-top: 150px;">
+        	<h3 class="orange">&nbsp;Develop your first HelloWorld<br />_</h3>
+            mangOH™ Green is using the Legato open source embedded platform built on Linux to design the software of an IoT application.
+            <br />
+            Here are the steps you’ll need to take to compile and load your first Legato HelloWorld on your target for:
+            <ul>
+                <li>◆ &nbsp; <a href="https://doc.airvantage.io/av/howto/hardware/legato_getting_started/" target="_blank">Command Lines Users with Linux PC Host <i class="fa fa-external-link"></i></a></li>
+                <li>◆ &nbsp; <a href="http://source.sierrawireless.com/resources/airprime/software/legato_application_development_kit_windows/" target="_blank">Graphical Interface Users with Windows PC Host <i class="fa fa-external-link"></i> :</a> follow the installation wizard and HelloWorld cheat sheet</li>
+                <li>◆ &nbsp; <a href="http://source.sierrawireless.com/resources/airprime/software/legato_application_development_kit_linux/#ide" target="_blank">Graphical Interface Users with Linux PC Host <i class="fa fa-external-link"></i> :</a> follow the installation wizard and HelloWorld cheat sheet</li>
+            </ul>
+            <br /><br />
+            For more documentation and samples, go at &nbsp;&nbsp;<a href="http://legato.io" class="animated1 callactiongreen" target="_blank"><i class="fa fa-laptop"></i>&nbsp; legato.io</a>
+            <br /><br />
+            Command Lines Users with Linux PC Host
             <br clear="left" />
         </div>
-        <div class="content whitebg">
-        	<h3 class="orange">&nbsp;Titles<br />_</h3>
-            mangOH designs accepts the following CF3 modules &amp; application processors. To run properly, mangOH designs need 1 application processor supporting <a href="http://legato.io">Legato™</a>, an open source Linux-based O/S and application framework. Legato provides usefull librairies for applications running on mangOH™.
+        <div class="content whitebg" id="cloud" style="padding-top: 150px;">
+        	<h3 class="orange">&nbsp;Connect to the Cloud<br />_</h3>
+            mangOH™ Green is natively connected to the IoT Acceleration Platform allowing you to send/receive data between your Legato application and the Cloud:
+            <ul>
+                <li>◆ &nbsp; Get Ready to Develop Legato Application</li>
+                <li>◆ &nbsp; Develop Legato application - Data Exchange with AirVantage</li>
+            </ul>
+            <br /><br />
+            For more documentation, go at doc.airvantage.net
+            <br clear="left" />
+        </div>
+        <div class="content" id="sensor" style="padding-top: 150px; padding-bottom: 700px;">
+        	<h3 class="orange">&nbsp;Sensor-To-Cloud Fast Prototype using Arduino<br />_</h3>
+            mangOH™ is including a built-in Arduino Leonardo with Atmega processor and shield connector. Follow this tutorial to send/receive data between your Arduino sketch and the Cloud:
+            <ul>
+				<li>◆ &nbsp; <a href="#" target="_blank">mangOH™ Arduino Tutorial</a></li>
+            </ul>
+            <br />
             <br clear="left" />
         </div>
         <div id="footer">
