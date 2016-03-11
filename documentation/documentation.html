@@ -126,6 +126,7 @@
                 <nav>
                     <a href="../index.html" class="navlink">Project mangOH™</a>
                     <a href="../mangoh-green.html">mangOH™ Green</a>
+                    <a href="../getting-started.html">Getting started</a>
                     <a href="../buy-mangoh.html">Buy</a>
                     <a href="documentation.html" class="link-selected">Documentation</a>
                     <!--<a href="use-cases.html">Use cases</a>-->
@@ -135,120 +136,42 @@
         </div>
         <h2 class="pagetitle greenbg buymangoh">Documentation</h2>
         <div class="content big beebg opacity75" id="subnav">
-        	<a href="documentation.html" class="current orange">Getting started</a>
-            <a href="schematics-gerbers-bom.html">Schematics/Gerbers/BOM</a>
-            <a href="user-developer-guide.html">User & Developer guides</a>
-            <a href="legato.html">Legato™</a>
-            <!--<a href="module-firmware-update.html">Module FW update</a>-->
-            <a href="iot-connector-specifications.html">IoT connector specs</a>
-            <a href="3d-printing.html">3D printing</a>
-            <a href="archives.html">Archives</a>
+        	<a href="documentation.html" class="current orange">Schematics<br />Gerbers/BOM</a>
+            <a href="user-developer-guide.html">User &<br />Developer guides</a>
+            <a href="legato.html">Legato™<br />&nbsp;</a>
+            <!--<!--<a href="module-firmware-update.html">Module FW update</a>-->
+            <a href="iot-connector-specifications.html">IoT connector<br />specifications</a>
+            <a href="3d-printing.html">3D printing<br />&nbsp;</a>
+            <a href="archives.html">Archives<br />&nbsp;</a>
         </div>
         <div class="content whitebg">
-        	<h3 class="orange">&nbsp;Setup your Hardware<br />_</h3>
-            <br />
-            <div class="module center">
-                <img src="../resources/img/mangoh_fsn-imei.jpg" title="Note the serial number (FSN) and IMEI" style="width: 75%; padding: 0;" />
-                <span class="numbers green">1</span>
-                Note the serial number (FSN) and IMEI of your CF3 module (used later to identify your device)
+        	<h3 class="orange">&nbsp;Schematics/Gerbers/BOM<br />_</h3>
+            <div class="module">
+                <!--img src="resources/img/mangoh_member_placeholder.png" title="#iot_module" />-->
+                <h5 class="green">Schematics</h5>
+                Circuit diagrams of mangOH Green version DV3 (PDF file). You need this file if you want to play with mangOH architecture to modify it, or just understand it.
+                <br />
+                <center><a href="../docs/schematic_mangOH_Green_DV4_2500905.pdf" target="_blank" class="modulebutton"><i class="fa fa-codepen"></i> Schematics</a></center>
             </div>
-            <div class="module center">
-                <img src="../resources/img/mangoh_setup_step_2_cf3-module.gif" title="Mount the CF3 module" style="width: 75%; padding: 0;" />
-                <span class="numbers green">2</span>
-                Mount the CF3 module in the primary socket
+            <div class="module">
+                <!--img src="resources/img/mangoh_member_placeholder.png" title="#iot_module" />-->
+                <h5 class="green">Gerbers</h5>
+                Gerber files of mangOH Green printed circuit version DV3 (Zip archive). Use these files to get mangOH Green manufactured.
+                <br /><br />
+                <center><a href="../docs/gerber_mangOH_Green_DV4_1401063.zip" target="_blank" class="modulebutton"><i class="fa fa-hospital-o"></i> Gerbers</a></center>
             </div>
-            <div class="module center">
-                <img src="../resources/img/mangoh_setup_step_3_rf-antenna.jpg" title="Connect main RF antenna" style="width: 75%; padding: 0;" />
-                <span class="numbers green">3</span>
-                Connect main RF antenna
+            <div class="module">
+                <!--img src="resources/img/mangoh_member_placeholder.png" title="#iot_module" />-->
+                <h5 class="green">BoM</h5>
+                Bill of material of mangOH Green (xls file). This file lists all components of mangOH Green version DV3.
+                <br /><br /><br /><br />
+                <center><a href="../docs/BOM_mangOH_Green_DV4_1600643.xls" target="_blank" class="modulebutton"><i class="fa fa-list"></i> BoM (xls)</a></center>
             </div>
-            <br clear="left" /><br /><br/>
-            <div class="module center">
-                <img src="../resources/img/mangoh_setup_step_4_gnss-antenna.jpg" title="Connect GNSS antenna" style="width: 75%; padding: 0;" />
-                <span class="numbers green">4</span>
-                Connect GNSS antenna
-            </div>
-            <div class="module center">
-                <img src="../resources/img/mangoh_setup_step_5_sim.gif" title="Insert mini or micro SIM" style="width: 75%; padding: 0;" />
-                <span class="numbers green">5</span>
-                Insert mini or micro SIM (without PIN code)
-            </div>
-            <div class="module center">
-                <img src="../resources/img/mangoh_setup_step_6_power.gif" title="Connect power supply" style="width: 75%; padding: 0;" />
-                <span class="numbers green">6</span>
-                Connect power select jumper and power supply
-            </div>
-            <br clear="left" /><br /><br/>
-            For more info, read the &nbsp;<a href="user-developer-guide.html" target="_blank" class="modulebutton"><i class="fa fa-book"></i> User Guide</a>
-            <br /><br />
-		</div>
-        <div class="content greenbg beebg15 center">
-        	<h3 class="white">Now you’re ready for the next step!</h3>
-            <br />
-            <div class="module center">
-                <a href="#helloworld" class="navlink" style="border-bottom: none; color: #FFF; cursor: pointer;">
-                	<img src="../resources/img/mangoh_gs_helloworld.png" title="HelloWorld" />
-                	<h5 class="white">HelloWorld</h5>
-                	Develop your first HelloWorld using Legato™
-                	<br /><br />
-                </a>
-            </div>
-        	<div class="module center">
-                <a href="#cloud" class="navlink" style="border-bottom: none; color: #FFF; cursor: pointer;">
-                	<img src="../resources/img/mangoh_gs_cloud.png" title="Cloud" />
-                	<h5 class="white">Cloud</h5>
-                	Connect to the Cloud
-                	<br /><br />
-                </a>
-            </div>
-        	<div class="module center">
-                <a href="#sensor" class="navlink" style="border-bottom: none; color: #FFF; cursor: pointer;">
-                	<img src="../resources/img/mangoh_gs_sensor.png" title="Sensor-To-Cloud" />
-                	<h5 class="white">Sensor-To-Cloud</h5>
-                	Sensor-To-Cloud fast prototype using Arduino
-                	<br /><br />
-                </a>
-            </div>
-            <br clear="left" /><br /><br/>
-        </div>
-        <div class="content" id="helloworld" style="padding-top: 150px;">
-        	<h3 class="orange">&nbsp;Develop your first HelloWorld<br />_</h3>
-            mangOH™ Green is using the Legato open source embedded platform built on Linux to design the software of an IoT application.
-            <br />
-            Here are the steps you’ll need to take to compile and load your first Legato HelloWorld on your target for:
-            <ul>
-                <li>◆ &nbsp; <a href="http://source.sierrawireless.com/airvantage/av/howto/hardware/samples/legato-setup/" target="_blank">Command Lines Users with Linux PC Host <i class="fa fa-external-link"></i></a></li>
-                <li>◆ &nbsp; <a href="http://source.sierrawireless.com/resources/airprime/software/legato_application_development_kit_windows/" target="_blank">Graphical Interface Users with Windows PC Host <i class="fa fa-external-link"></i> :</a> follow the installation wizard and HelloWorld cheat sheet</li>
-                <li>◆ &nbsp; <a href="http://source.sierrawireless.com/resources/airprime/software/legato_application_development_kit_linux/#ide" target="_blank">Graphical Interface Users with Linux PC Host <i class="fa fa-external-link"></i> :</a> follow the installation wizard and HelloWorld cheat sheet</li>
-            </ul>
-            <br /><br />
-            Congratulations! Now that you wrote your first HelloWorld, we invite you to connect your mangOH Green to the cloud (see section below). For more detailed documentation and samples, go to &nbsp;&nbsp;<a href="http://legato.io" target="_blank"><i class="fa fa-external-link"></i> legato.io</a>
-            <br /><br />
-            <br clear="left" />
-        </div>
-        <div class="content whitebg" id="cloud" style="padding-top: 150px;">
-        	<h3 class="orange">&nbsp;Connect to the Cloud<br />_</h3>
-            mangOH™ Green is natively connected to AirVantage allowing you to send applicative data and receive commands. Start these 2 tutorials from <a href="https://source.sierrawireless.com/airvantage/av/howto/hardware/legato_getting_started/" target="_blank"><i class="fa fa-external-link"></i>&nbsp; here</a>:<br/><br/>
-            <ul>
-                <li>◆ &nbsp; Get Ready to Develop Legato Application</li>
-                <li>◆ &nbsp; Develop your application to communicate with AirVantage</li>
-            </ul>
-            <br /><br />
-            For more detailed documentation, go to the &nbsp;&nbsp;<a href="https://source.sierrawireless.com/airvantage/av" target="_blank"><i class="fa fa-external-link"></i>&nbsp; AirVantage documentation</a>
-            <br clear="left" />
-        </div>
-        <div class="content" id="sensor" style="padding-top: 150px; padding-bottom: 700px;">
-        	<h3 class="orange">&nbsp;Sensor-To-Cloud Fast Prototyping using Arduino<br />_</h3>
-            mangOH™ includes a built-in Arduino Leonardo with ATmega processor and shield connector. As a next step to the preceding 2 tutorials (helloworld &amp; device-to-cloud), follow this tutorial to send &amp; receive data from Arduino sketch to the Cloud and vice-versa:<br/><br/>
-            <ul>
-				<li>◆ &nbsp; <a href="../docs/Mangoh_Arduino_Tutorial_draft1.0.pdf" target="_blank">mangOH™ Arduino Tutorial (draft - pdf)</a></li>
-            </ul>
-            <br />
-            <br clear="left" />
+            <br clear="left" /><br />
         </div>
         <div id="footer">
         	<img src="../resources/img/sw_logo.png" />
-            ©2016 Sierra Wireless - This website and its content are provided under Creative Common Attribution 4.0 International License unless stated otherwise
+            ©2016 Sierra Wireless - This website and its content is provided under Creative Common Attribution 4.0 International License unless stated otherwise
         </div>
 	</div>
 </body>
