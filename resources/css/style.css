@@ -1430,7 +1430,7 @@ div#subnav {
 	border-bottom: 2px solid rgba(135,181,39,0);
 	padding: 0 20px 30px 20px;
     margin-right: -7px;
-	color: rgba(100,100,100,1);
+	color: rgba(0,0,0,1);
 }
 
 #subnav a:hover {
