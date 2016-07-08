@@ -1452,6 +1452,7 @@ div#subnav {
 div.news {
 	position: relative;
 	width: 70%;
+	margin-bottom: 100px;
 }
 
 div.news img {
