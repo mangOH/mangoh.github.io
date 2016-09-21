@@ -1,0 +1,254 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Getting started with mangOH™ - Project mangOH™ - IoT open source hardware for industry</title>
+	<meta name="description" content="Buy mangOH™ and facilitates the prototyping and the productization of IoT products for industry." />
+	<meta name="robots" content="index follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="resources/css/style.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="resources/css/font-awesome.css" rel="stylesheet" type="text/css" media="screen" />
+    <link rel="shortcut icon" href="resources/img/mangoh_ico.ico">
+    <link rel="apple-touch-icon" href="#">
+    <link rel="apple-touch-icon" sizes="72x72" href="#">
+    <link rel="apple-touch-icon" sizes="114x114" href="#">
+    <link rel="apple-touch-icon" sizes="144x144" href="#">
+        
+    <script src="resources/js/jquery-1.7.2.js" type="text/javascript"></script>
+    <script src="resources/js/main.js" type="text/javascript"></script>
+    <script src="resources/js/jquery.sticky.js"></script>
+	<script>
+      $(document).ready(function(){
+		var menuTrigger = $("#menu-trigger");
+		var isActive = true;
+		var checkSticky = function() {
+			var isVisible = menuTrigger.is(":visible");
+			if(isActive && isVisible) {
+				$("#top").unstick();
+				$(".palette").unstick();
+				isActive = false;
+			} else if(!isActive && !isVisible) {
+		 		$("#top").sticky({topSpacing:0, checkStickyFn:checkSticky});
+				$(".palette").sticky({topSpacing:0, checkStickyFn:checkSticky});
+				isActive = true;
+			}
+			return isActive;
+		};
+		  
+        $("#top").sticky({topSpacing:0, checkStickyFn:checkSticky});
+		$(".palette").sticky({topSpacing:0, checkStickyFn:checkSticky});
+		// Small memu
+		menuTrigger.click(function() {
+			$("#top")[this.opened ? "removeClass" : "addClass"]("menu-open");
+			$(this)[this.opened ? "removeClass" : "addClass"]("trigger-open");
+			this.opened = !this.opened;
+	    });
+		
+		$("#top a").click(function() {
+	        $("#top").removeClass("menu-open");
+			$("#menu-trigger").removeClass("trigger-open").get(0).opened = false;
+			
+	    });
+		
+      });
+    </script>
+    
+    <script type="text/javascript">
+		adroll_adv_id = "2QB7M5RH2ZB5FF3RQZSBCT";
+		adroll_pix_id = "XZ5UD7YEEVFJ7I5VYGF5QJ";
+		// adroll_email = "username@example.com"; // OPTIONAL: provide email to improve user identification
+		(function () {
+			var _onload = function(){
+				if (document.readyState && !/loaded|complete/.test(document.readyState)){setTimeout(_onload, 10);return}
+				if (!window.__adroll_loaded){__adroll_loaded=true;setTimeout(_onload, 50);return}
+				var scr = document.createElement("script");
+				var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+				scr.setAttribute('async', 'true');
+				scr.type = "text/javascript";
+				scr.src = host + "/j/roundtrip.js";
+				((document.getElementsByTagName('head') || [null])[0] ||
+					document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+			};
+			if (window.addEventListener) {window.addEventListener('load', _onload, false);}
+			else {window.attachEvent('onload', _onload)}
+		}());
+	</script>
+    
+    <script type="text/javascript">
+	var _elqQ = _elqQ || [];
+	_elqQ.push(['elqSetSiteId', '1799992300']);
+	_elqQ.push(['elqTrackPageView']);
+	(function() {
+	function async_load() {
+	var s = document.createElement('script');
+	s.type = 'text/javascript';
+	s.async = true;
+	s.src = '//img03.en25.com/i/elqCfg.min.js';
+	var x = document.getElementsByTagName('script')[0];
+	x.parentNode.insertBefore(s, x);
+	}
+	if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+	else if (window.attachEvent) window.attachEvent('onload', async_load);
+	})();
+	function elqTrackFlashClick(URL, referrer) {
+	_elqQ.push(['elqTrackPageView', URL, referrer]);
+	}
+	</script>
+    
+    <script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	
+	  ga('create', 'UA-718568-6', 'auto');
+	  ga('send', 'pageview');
+	
+	</script>
+    
+    <!--[if lt IE 9]>
+    	<script type="text/javascript" src="resources/js/html5shiv.js"></script>
+	<![endif]-->
+    <!--[if gte IE 9]>
+      <style type="text/css">
+        .gradient {filter: none;
+    }
+  </style>
+<![endif]-->
+
+</head>
+<body>
+    <div class="wrapper">
+        <div id="menu-trigger" class="fa fa-bars"></div>
+        <div id="top">
+            <header>
+                <h1><a title="back to mangOH™ homepage" href="index.html" class="navlink">mangOH™</a></h1>
+                <nav>
+                    <a href="index.html" class="navlink">mangOH™</a>
+                    <a href="mangoh_green.html">mangOH™ Green</a>
+                    <a href="learning/getting_started/mangoh_green-fundamentals.html" class="link-selected">Getting started</a>
+                    <a href="buy-mangoh.html">Buy</a>
+                    <a href="documentation/documentation.html">Documentation</a>
+                    <!--<a href="use-cases.html">Use cases</a>-->
+                    <a href="news.html">News</a>
+                    <a href="http://forum.mangoh.io" target="_blank">Forum</a>
+                </nav>
+            </header>
+        </div>
+        <h2 class="pagetitle orangebg gettingstarted">Getting started</h2>
+        <div class="content big green center beebg opacity75">
+        	<span class="animated1">
+                <strong>Go ahead, build something new!</strong>
+                <br />
+                To get up and running quickly on your first mangOH™ Green board,<br />feel free to follow these discovery tutorials and step-by-step instructions.
+            </span>
+        </div>
+        <div class="content whitebg">
+        	<h3 class="orange">&nbsp;Setup your Hardware<br />_</h3>
+            <br />
+            <div class="module center">
+                <img src="resources/img/mangoh_fsn-imei.jpg" title="Note the serial number (FSN) and IMEI" style="width: 75%; padding: 0;" />
+                <span class="numbers green">1</span>
+                Note the serial number (FSN) and IMEI of your CF3 module (used later to identify your device)
+            </div>
+            <div class="module center">
+                <img src="resources/img/mangoh_setup_step_2_cf3-module.gif" title="Mount the CF3 module" style="width: 75%; padding: 0;" />
+                <span class="numbers green">2</span>
+                Mount the CF3 module in the primary socket
+            </div>
+            <div class="module center">
+                <img src="resources/img/mangoh_setup_step_3_rf-antenna.jpg" title="Connect main RF antenna" style="width: 75%; padding: 0;" />
+                <span class="numbers green">3</span>
+                Connect main RF antenna
+            </div>
+            <br clear="left" /><br /><br/>
+            <div class="module center">
+                <img src="resources/img/mangoh_setup_step_4_gnss-antenna.jpg" title="Connect GNSS antenna" style="width: 75%; padding: 0;" />
+                <span class="numbers green">4</span>
+                Connect GNSS antenna
+            </div>
+            <div class="module center">
+                <img src="resources/img/mangoh_setup_step_5_sim.gif" title="Insert mini or micro SIM" style="width: 75%; padding: 0;" />
+                <span class="numbers green">5</span>
+                Insert mini or micro SIM (without PIN code)
+            </div>
+            <div class="module center">
+                <img src="resources/img/mangoh_setup_step_6_power.gif" title="Connect power supply" style="width: 75%; padding: 0;" />
+                <span class="numbers green">6</span>
+                Connect power select jumper and power supply
+            </div>
+            <br clear="left" /><br /><br/>
+            For more info, read the &nbsp;<a href="docs/4118902 mangOH Green (DV4) User Guide v1.pdf" target="_blank" class="modulebutton"><i class="fa fa-book"></i> User Guide</a>
+            <br /><br />
+		</div>
+        <div class="content greenbg beebg15 center">
+        	<h3 class="white">Now you’re ready for the next step!</h3>
+            <br />
+            <div class="module center">
+                <a href="#helloworld" class="navlink" style="border-bottom: none; color: #FFF; cursor: pointer;">
+                	<img src="resources/img/mangoh_gs_helloworld.png" title="HelloWorld" />
+                	<h5 class="white">HelloWorld</h5>
+                	Develop your first HelloWorld using Legato™
+                	<br /><br />
+                </a>
+            </div>
+        	<div class="module center">
+                <a href="#cloud" class="navlink" style="border-bottom: none; color: #FFF; cursor: pointer;">
+                	<img src="resources/img/mangoh_gs_cloud.png" title="Cloud" />
+                	<h5 class="white">Cloud</h5>
+                	Connect to the Cloud
+                	<br /><br />
+                </a>
+            </div>
+        	<div class="module center">
+                <a href="#sensor" class="navlink" style="border-bottom: none; color: #FFF; cursor: pointer;">
+                	<img src="resources/img/mangoh_gs_sensor.png" title="Sensor-To-Cloud" />
+                	<h5 class="white">Sensor-To-Cloud</h5>
+                	Sensor-To-Cloud fast prototype using Arduino
+                	<br /><br />
+                </a>
+            </div>
+            <br clear="left" /><br /><br/>
+        </div>
+        <div class="content" id="helloworld" style="padding-top: 150px;">
+        	<h3 class="orange">&nbsp;Develop your first HelloWorld<br />_</h3>
+            mangOH™ Green is using the Legato open source embedded platform built on Linux to design the software of an IoT application.
+            <br />
+            Here are the steps you’ll need to take to compile and load your first Legato HelloWorld on your target for:
+            <ul>
+                <li>◆ &nbsp; <a href="http://source.sierrawireless.com/airvantage/av/howto/hardware/samples/legato-setup/" target="_blank">Command Lines Users with Linux PC Host <i class="fa fa-external-link"></i></a></li>
+                <li>◆ &nbsp; <a href="http://source.sierrawireless.com/resources/airprime/software/legato_application_development_kit_windows/" target="_blank">Graphical Interface Users with Windows PC Host <i class="fa fa-external-link"></i> :</a> follow the installation wizard and HelloWorld cheat sheet</li>
+                <li>◆ &nbsp; <a href="http://source.sierrawireless.com/resources/airprime/software/legato_application_development_kit_linux/#ide" target="_blank">Graphical Interface Users with Linux PC Host <i class="fa fa-external-link"></i> :</a> follow the installation wizard and HelloWorld cheat sheet</li>
+            </ul>
+            <br /><br />
+            Congratulations! Now that you wrote your first HelloWorld, we invite you to connect your mangOH Green to the cloud (see section below). For more detailed documentation and samples, go to &nbsp;&nbsp;<a href="http://legato.io" target="_blank"><i class="fa fa-external-link"></i> legato.io</a>
+            <br /><br />
+            <br clear="left" />
+        </div>
+        <div class="content whitebg" id="cloud" style="padding-top: 150px;">
+        	<h3 class="orange">&nbsp;Connect to the Cloud<br />_</h3>
+            mangOH™ Green is natively connected to AirVantage allowing you to send applicative data and receive commands. Start these 2 tutorials from <a href="https://source.sierrawireless.com/airvantage/av/howto/hardware/legato_getting_started/" target="_blank"><i class="fa fa-external-link"></i>&nbsp; here</a>:<br/><br/>
+            <ul>
+                <li>◆ &nbsp; Get Ready to Develop Legato Application</li>
+                <li>◆ &nbsp; Develop your application to communicate with AirVantage</li>
+            </ul>
+            <br /><br />
+            For more detailed documentation, go to the &nbsp;&nbsp;<a href="https://source.sierrawireless.com/airvantage/av/" target="_blank"><i class="fa fa-external-link"></i>&nbsp; AirVantage documentation</a>
+            <br clear="left" />
+        </div>
+        <div class="content" id="sensor" style="padding-top: 150px; padding-bottom: 700px;">
+        	<h3 class="orange">&nbsp;Sensor-To-Cloud Fast Prototyping using Arduino<br />_</h3>
+            mangOH™ includes a built-in Arduino Leonardo with ATmega processor and shield connector. As a next step to the preceding 2 tutorials (helloworld &amp; device-to-cloud), follow this tutorial to send &amp; receive data from Arduino sketch to the Cloud and vice-versa:<br/><br/>
+            <ul>
+				<li>◆ &nbsp; <a href="docs/Mangoh_Arduino_Tutorial_draft1.0.pdf" target="_blank">mangOH™ Arduino Tutorial (draft)</a></li>
+            </ul>
+            <br />
+            <br clear="left" />
+        </div>
+        <div id="footer">
+        	<img src="resources/img/sw_logo.png" />
+            ©2016 Sierra Wireless - This website and its content are provided under Creative Common Attribution 4.0 International License unless stated otherwise
+        </div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,268 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Project mangOH™ - IoT open source hardware for industry</title>
+	<meta name="description" content="mangOH facilitates the prototyping and the productization of IoT products for industry." />
+	<meta name="robots" content="index follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="resources/css/style.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="resources/css/font-awesome.css" rel="stylesheet" type="text/css" media="screen" />
+    <link rel="shortcut icon" href="resources/img/mangoh_ico.ico">
+    <link rel="apple-touch-icon" href="#">
+    <link rel="apple-touch-icon" sizes="72x72" href="#">
+    <link rel="apple-touch-icon" sizes="114x114" href="#">
+    <link rel="apple-touch-icon" sizes="144x144" href="#">
+        
+    <script src="resources/js/jquery-1.7.2.js" type="text/javascript"></script>
+    <script src="resources/js/main.js" type="text/javascript"></script>
+    <script src="resources/js/jquery.sticky.js"></script>
+	<script>
+      $(document).ready(function(){
+		var menuTrigger = $("#menu-trigger");
+		var isActive = true;
+		var checkSticky = function() {
+			var isVisible = menuTrigger.is(":visible");
+			if(isActive && isVisible) {
+				$("#top").unstick();
+				$(".palette").unstick();
+				isActive = false;
+			} else if(!isActive && !isVisible) {
+		 		$("#top").sticky({topSpacing:0, checkStickyFn:checkSticky});
+				$(".palette").sticky({topSpacing:0, checkStickyFn:checkSticky});
+				isActive = true;
+			}
+			return isActive;
+		};
+		  
+        $("#top").sticky({topSpacing:0, checkStickyFn:checkSticky});
+		$(".palette").sticky({topSpacing:0, checkStickyFn:checkSticky});
+		// Small memu
+		menuTrigger.click(function() {
+			$("#top")[this.opened ? "removeClass" : "addClass"]("menu-open");
+			$(this)[this.opened ? "removeClass" : "addClass"]("trigger-open");
+			this.opened = !this.opened;
+	    });
+		
+		$("#top a").click(function() {
+	        $("#top").removeClass("menu-open");
+			$("#menu-trigger").removeClass("trigger-open").get(0).opened = false;
+			
+	    });
+		
+      });
+    </script>
+    
+    <script type="text/javascript">
+		adroll_adv_id = "2QB7M5RH2ZB5FF3RQZSBCT";
+		adroll_pix_id = "XZ5UD7YEEVFJ7I5VYGF5QJ";
+		// adroll_email = "username@example.com"; // OPTIONAL: provide email to improve user identification
+		(function () {
+			var _onload = function(){
+				if (document.readyState && !/loaded|complete/.test(document.readyState)){setTimeout(_onload, 10);return}
+				if (!window.__adroll_loaded){__adroll_loaded=true;setTimeout(_onload, 50);return}
+				var scr = document.createElement("script");
+				var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+				scr.setAttribute('async', 'true');
+				scr.type = "text/javascript";
+				scr.src = host + "/j/roundtrip.js";
+				((document.getElementsByTagName('head') || [null])[0] ||
+					document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+			};
+			if (window.addEventListener) {window.addEventListener('load', _onload, false);}
+			else {window.attachEvent('onload', _onload)}
+		}());
+	</script>
+    
+    <script type="text/javascript">
+	var _elqQ = _elqQ || [];
+	_elqQ.push(['elqSetSiteId', '1799992300']);
+	_elqQ.push(['elqTrackPageView']);
+	(function() {
+	function async_load() {
+	var s = document.createElement('script');
+	s.type = 'text/javascript';
+	s.async = true;
+	s.src = '//img03.en25.com/i/elqCfg.min.js';
+	var x = document.getElementsByTagName('script')[0];
+	x.parentNode.insertBefore(s, x);
+	}
+	if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+	else if (window.attachEvent) window.attachEvent('onload', async_load);
+	})();
+	function elqTrackFlashClick(URL, referrer) {
+	_elqQ.push(['elqTrackPageView', URL, referrer]);
+	}
+	</script>
+    
+    <script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	
+	  ga('create', 'UA-718568-6', 'auto');
+	  ga('send', 'pageview');
+	
+	</script>
+    
+    <!--[if lt IE 9]>
+    	<script type="text/javascript" src="resources/js/html5shiv.js"></script>
+	<![endif]-->
+    <!--[if gte IE 9]>
+      <style type="text/css">
+        .gradient {filter: none;
+    }
+  </style>
+<![endif]-->
+
+    <!-- Google search engine -->
+    <!--script>
+     (function() {
+      var cx = '001978187636078659783:gr5u84cl5z4';
+      var gcse = document.createElement('script');
+      gcse.type = 'text/javascript';
+      gcse.async = true;
+      gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+          '//cse.google.com/cse.js?cx=' + cx;
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(gcse, s);
+     })();
+    </script-->
+    
+</head>
+<body>
+	<div class="bg"></div>
+    <div class="wrapper">
+    	<div id="introduction">
+        	<img src="resources/img/opensource_hardware.png" class="osh" />
+        	<img src="resources/img/sw_logo.png" class="animated1 logo" />
+            <h2 class="animated1">IoT open source hardware platform</h2>
+            <span class="animated1">From idea to prototype to production, mangOH™ reference designs provide industrial-grade,<br />
+            sensor-to-cloud platforms for building wireless IoT solutions.</span>
+            <!--<br /><br />
+            <span class="animated2">mangOH™ Open Source Hardware for IoT won the GSMA’s Best Mobile Technology Breakthrough – Asia Award</span>
+            <br />
+            <a href="news.html" target="_blank" class="animated2 callaction"><i class="fa fa-newspaper-o"></i> see news</a>-->
+        </div>
+        <div id="menu-trigger" class="fa fa-bars"></div>
+        <div id="top">
+            <header>
+                <h1><a title="back to mangOH™ homepage" href="index.html" class="navlink">mangOH™</a></h1>
+                <nav>
+                	<ul class="nav">
+                    	<li><a href="index.html" class="navlink link-selected">mangOH™</a></li>
+                        <li><a href="products/products.html">Products</a>
+                        	<ul class="subnav">
+                                <li><a href="products/mangoh_green.html" class="subnavlink">mangOH Green</a></li>
+                                <li><a href="products/mangoh_red.html" class="subnavlink">mangOH Red</a></li>
+                                <li><a href="products/iot_expansion_cards.html" class="subnavlink">IoT expansion cards</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="learning/learning.html">Learning</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="http://forum.mangoh.io" target="_blank">Forum</a></li>
+                        <li><a href="https://github.com/mangoh" target="_blank" style="font-size:24px;color:#111;"><i class="fa fa-github"></i></a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <div id="overview">
+        	<h2>&nbsp;project mangOH™<br />_</h2>
+            Project mangOH™ is a new category of open source hardware platforms for the Internet-of-Things (IoT). The design philosophy behind Project mangOH is simple:<br/><br/>
+            <ul>
+                <li>◆ Keep the designs open source and business friendly so anyone can copy, modify, and build commercial products based on them</li>
+                <li>◆ Make them flexible enough to adapt to any IoT use-case based on wired, wireless, and sensor technologies</li>
+                <li>◆ Design them with industrial-grade components so that prototypes can be easily turned into a commercial products</li>
+                <li>◆ Partner with other open source initiatives like the Legato™ Linux platform to remove the complexity of hardware integration</li>
+            </ul><br/>
+
+            Project mangOH designs deliver 90% of your prototype out-of-the-box so that software developers can build reliable IoT solutions easily and hardware designers can customize it to create new hardware IoT devices easily.<br/><br/>
+            The first design, mangOH Green, was announced in June 2015 and those boards are now being manufactured and new technologies are being added thanks to a growing ecosystem of project members.
+
+            <br/><br/>
+            <center><a href="mangoh_green.html" class="animated3 callactiongreen"><i class="fa fa-hospital-o"></i>&nbsp; Use mangOH Green</a>&nbsp;&nbsp;&nbsp;<a href="documentation/documentation.html" class="animated3 callactiongreen"><i class="fa fa-cubes"></i>&nbsp; Build your own</a></center>
+        </div>
+        <div id="overview_features-members">
+            <div class="overview_members">
+                <h3>&nbsp;ecosystem<br />_</h3>
+                Project mangOH is currently supported by the following project members: element14, Freescale<sup>®</sup>, Talon Communications, Renfell Innovation, Linear Technology, Sierra Wireless<sup>®</sup>, Texas Instruments<sup>®</sup>.<br/><br/>
+                Project members work hands-in-hands to enhance mangOH designs, get the boards manufactured, tested and distributed worldwide, add nes IoT connectors (sensors, networks, etc...) and code samples, and promote open hardware.
+                <br /><br />
+                Want to join the effort and/or contribute to an IoT connector for mangOH? <a href="http://hub.sierrawireless.com/LP=353" target="_blank">leave us a comment &nbsp;<i class="fa fa-commenting-o"></i></a>
+                <br /><br />
+                <center><a href="http://hub.sierrawireless.com/LP=353" target="_blank" class="animated3 callactiongreen"><i class="fa fa-group"></i>&nbsp; Join us!</a></center>
+            </div>
+            <div class="bottom">
+                <img src="resources/img/mangoh_members_element-14.png" title="element14" />
+                <img src="resources/img/mangoh_members_freescale.png" title="Freescale" />
+                <img src="resources/img/mangoh_members_talon-communications.png" title="Talon Communications" />
+                <img src="resources/img/mangoh_members_renfell-innovation.png" title="Renfell Innovation" />
+                <img src="resources/img/mangoh_members_linear-technology.png" title="Linear Technology" />
+                <img src="resources/img/mangoh_members_sierra-wireless.png" title="Sierra Wireless" />
+                <img src="resources/img/mangoh_members_texas-instruments.png" title="Texas Instruments" />
+            </div>
+            <div class="overview_learn-more">
+                <h3>&nbsp;learn more<br />_</h3>
+                Watch these videos on mangOH initiative presented during Sierra Wireless Innovation Summit 2015 in Paris, and learn more about mangOH and the ecosystem.
+                <br /><br />
+                <iframe src="https://www.youtube.com/embed/videoseries?list=PL0Ua62JDXVU9SEzWyA2iruZLEWfad_Rfr" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <br clear="left" />
+        </div>
+        <div id="mangoh-boards">
+        	<div id="mangoh-board" class="mangoh-green">
+            	<h3>_ mangOH Green</h3>
+                Lorem ipsum dolor sit amet, congue fierent dissentiet vis ut, ex volumus comprehensam ius, ex alii albucius assentior vix. At mei mollis patrioque omittantur, sale lorem incorrupte te quo, elitr dolore scripserit qui et.
+                <br /><br />
+                <a href="products/mangoh_green.html" class="animated3 callactionhollow"><i class="fa fa-hospital-o"></i>&nbsp; See</a>
+        	</div>
+            <div id="mangoh-board" class="mangoh-red">
+            	<h3>_ mangOH Red</h3>
+                Lorem ipsum dolor sit amet, congue fierent dissentiet vis ut, ex volumus comprehensam ius, ex alii albucius assentior vix. At mei mollis patrioque omittantur, sale lorem incorrupte te quo, elitr dolore scripserit qui et.
+                <br /><br />
+                <a href="products/mangoh_red.html" class="animated3 callactionhollow"><i class="fa fa-hospital-o"></i>&nbsp; See</a>
+        	</div>
+            <br clear="left" />
+        </div>
+        <!--<div id="features">
+        	<h2>&nbsp;technical overview<br />_</h2>
+            mangOH designs are built around the following components:
+            <br /><br />
+            <ul>
+            	<li>◆ <b>CF3™</b> socket compatible processors, including wireless processors (2G to 4G &amp; LTE-M)</li>
+                <li>◆ <b><a href="http://legato.io" target="_blank">Legato</a></b> open source Linux-based embedded platform designed to simplify connected IoT application development</li>
+                <li>◆ <b>IoT Connectors</b> based on industrial-grade QSFP+ interface to adding any combination of wired, wireless, and sensor technologies in both prototypes and final products</li>
+                <li>◆ Industrial-grade onboard components or footprint compatible options to quickly turn prototypes into final products</li>
+                <li>◆ Support for other open hardware projects (ie. mangOH Green has Arduino compatible connectors to support Arduino compatible shields).</li>
+			</ul>
+            <br/>
+            The first reference design released is called mangOH Green and will be commercially available in March 2016.<br/><br/>
+            <center><a href="mangoh_green.html" class="animated3 callactiongreen"><i class="fa fa-hospital-o"></i>&nbsp; Use mangOH Green</a>&nbsp;&nbsp;&nbsp;<a href="documentation/documentation.html" class="animated3 callactiongreen"><i class="fa fa-cubes"></i>&nbsp; Build your own</a></center>
+            <br clear="left" /><br />
+        </div>-->
+        <div id="opensource_license">
+            <h3>&nbsp;opensource license<br />_</h3>
+            mangOH reference design is provided with a business friendly open source license. You are free to copy, modify, distribute, with absolutely no constraint on the resulting product, including commercial usage of it.
+            <br /><br />
+            <div class="module">
+                <img src="resources/img/mangoh_creative-commons.png" title="Creative Commons" />
+                <h5 class="green">CC Attribution License</h5>
+                mangOH resources are licensed under a <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License &nbsp;<i class="fa fa-external-link"></i></a> based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://source.sierrawireless.com/mangOH" rel="dct:source" target="_blank">source.sierrawireless.com/mangOH &nbsp;<i class="fa fa-external-link"></i></a>
+                <!--br />
+                <center><a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" class="modulebutton"><i class="fa fa-creative-commons"></i> Attribution License</a></center-->
+            </div>
+            <div class="module">
+                <img src="resources/img/mangoh_open-source-hardware.png" title="Open Source Hardware" />
+                <h5 class="green">Open Source Hardware</h5>
+                mangOH complies with the <a href="http://www.oshwa.org/definition/" target="_blank">Open Source Hardware Definition &nbsp;<i class="fa fa-external-link"></i></a> from the Open Source HardWare Association (OSHWA).
+            </div>
+            <br clear="left" />
+        </div>
+        <div id="footer">
+        	<img src="resources/img/sw_logo.png" />
+            ©2016 Sierra Wireless - This website and its content is provided under Creative Common Attribution 4.0 International License unless stated otherwise
+        </div>
+	</div>
+</body>
+</html>

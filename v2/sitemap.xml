@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://mangoh.io/</loc>
+  <lastmod>2016-03-22T10:04:14+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://mangoh.io/index.html</loc>
+  <lastmod>2016-03-22T10:04:14+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mangoh.io/mangoh_green.html</loc>
+  <lastmod>2016-03-22T10:04:14+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mangoh.io/getting-started.html</loc>
+  <lastmod>2016-03-22T10:04:14+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mangoh.io/buy-mangoh.html</loc>
+  <lastmod>2016-03-22T10:04:13+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mangoh.io/documentation/documentation.html</loc>
+  <lastmod>2016-03-22T10:04:14+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mangoh.io/docs/4118902%20mangOH%20Green%20(DV4)%20User%20Guide%20v1.pdf</loc>
+  <lastmod>2016-03-22T10:04:14+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://mangoh.io/docs/Mangoh_Arduino_Tutorial_draft1.0.pdf</loc>
+  <lastmod>2016-03-22T10:04:14+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://mangoh.io/documentation/user-developer-guide.html</loc>
+  <lastmod>2016-03-22T10:04:14+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://mangoh.io/documentation/legato.html</loc>
+  <lastmod>2016-03-22T10:04:14+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://mangoh.io/documentation/iot-connector-specifications.html</loc>
+  <lastmod>2016-03-22T10:04:14+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://mangoh.io/documentation/3d-printing.html</loc>
+  <lastmod>2016-03-22T10:04:14+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://mangoh.io/documentation/archives.html</loc>
+  <lastmod>2016-03-22T10:04:14+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://mangoh.io/docs/schematic_mangOH_Green_DV4_2500905.pdf</loc>
+  <lastmod>2016-03-22T10:04:14+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://mangoh.io/docs/4118903%20mangOH%20Green%20(DV4)%20Developer's%20Guide%20v1.pdf</loc>
+  <lastmod>2016-03-22T10:04:14+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://mangoh.io/docs/4117166%20IoT%20Module%20Design%20Specification%20v3%20-%20Draft%20B.pdf</loc>
+  <lastmod>2016-03-22T10:04:14+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://mangoh.io/docs/schematic_mangOH_Green_DV3_2500905.pdf</loc>
+  <lastmod>2016-03-22T10:04:14+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://mangoh.io/docs/4118384%20mangOH%20Green%20(DV3)%20Developer's%20Guide%20v2.pdf</loc>
+  <lastmod>2016-03-22T10:04:14+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://mangoh.io/docs/4117166%20IoT%20Module%20Design%20Specification%20v2.pdf</loc>
+  <lastmod>2016-03-22T10:04:13+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+</urlset>

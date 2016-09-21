@@ -1,0 +1,284 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>IoT expansion cards > Products mangOH™ - Project mangOH™ - IoT open source hardware for industry</title>
+	<meta name="description" content="Buy mangOH™ and facilitates the prototyping and the productization of IoT products for industry." />
+	<meta name="robots" content="index follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="../resources/css/style.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="../resources/css/font-awesome.css" rel="stylesheet" type="text/css" media="screen" />
+    <link rel="shortcut icon" href="../resources/img/mangoh_ico.ico">
+    <link rel="apple-touch-icon" href="#">
+    <link rel="apple-touch-icon" sizes="72x72" href="#">
+    <link rel="apple-touch-icon" sizes="114x114" href="#">
+    <link rel="apple-touch-icon" sizes="144x144" href="#">
+        
+    <script src="../resources/js/jquery-1.7.2.js" type="text/javascript"></script>
+    <script src="../resources/js/main.js" type="text/javascript"></script>
+    <script src="../resources/js/jquery.sticky.js"></script>
+	<script>
+      $(document).ready(function(){
+		var menuTrigger = $("#menu-trigger");
+		var isActive = true;
+		var checkSticky = function() {
+			var isVisible = menuTrigger.is(":visible");
+			if(isActive && isVisible) {
+				$("#top").unstick();
+				$(".palette").unstick();
+				isActive = false;
+			} else if(!isActive && !isVisible) {
+		 		$("#top").sticky({topSpacing:0, checkStickyFn:checkSticky});
+				$(".palette").sticky({topSpacing:0, checkStickyFn:checkSticky});
+				isActive = true;
+			}
+			return isActive;
+		};
+		  
+        $("#top").sticky({topSpacing:0, checkStickyFn:checkSticky});
+		$(".palette").sticky({topSpacing:0, checkStickyFn:checkSticky});
+		// Small memu
+		menuTrigger.click(function() {
+			$("#top")[this.opened ? "removeClass" : "addClass"]("menu-open");
+			$(this)[this.opened ? "removeClass" : "addClass"]("trigger-open");
+			this.opened = !this.opened;
+	    });
+		
+		$("#top a").click(function() {
+	        $("#top").removeClass("menu-open");
+			$("#menu-trigger").removeClass("trigger-open").get(0).opened = false;
+			
+	    });
+		
+      });
+    </script>
+    
+    <script type="text/javascript">
+		adroll_adv_id = "2QB7M5RH2ZB5FF3RQZSBCT";
+		adroll_pix_id = "XZ5UD7YEEVFJ7I5VYGF5QJ";
+		// adroll_email = "username@example.com"; // OPTIONAL: provide email to improve user identification
+		(function () {
+			var _onload = function(){
+				if (document.readyState && !/loaded|complete/.test(document.readyState)){setTimeout(_onload, 10);return}
+				if (!window.__adroll_loaded){__adroll_loaded=true;setTimeout(_onload, 50);return}
+				var scr = document.createElement("script");
+				var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+				scr.setAttribute('async', 'true');
+				scr.type = "text/javascript";
+				scr.src = host + "/j/roundtrip.js";
+				((document.getElementsByTagName('head') || [null])[0] ||
+					document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+			};
+			if (window.addEventListener) {window.addEventListener('load', _onload, false);}
+			else {window.attachEvent('onload', _onload)}
+		}());
+	</script>
+    
+    <script type="text/javascript">
+	var _elqQ = _elqQ || [];
+	_elqQ.push(['elqSetSiteId', '1799992300']);
+	_elqQ.push(['elqTrackPageView']);
+	(function() {
+	function async_load() {
+	var s = document.createElement('script');
+	s.type = 'text/javascript';
+	s.async = true;
+	s.src = '//img03.en25.com/i/elqCfg.min.js';
+	var x = document.getElementsByTagName('script')[0];
+	x.parentNode.insertBefore(s, x);
+	}
+	if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+	else if (window.attachEvent) window.attachEvent('onload', async_load);
+	})();
+	function elqTrackFlashClick(URL, referrer) {
+	_elqQ.push(['elqTrackPageView', URL, referrer]);
+	}
+	</script>
+    
+    <script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	
+	  ga('create', 'UA-718568-6', 'auto');
+	  ga('send', 'pageview');
+	
+	</script>
+    
+    <!--[if lt IE 9]>
+    	<script type="text/javascript" src="resources/js/html5shiv.js"></script>
+	<![endif]-->
+    <!--[if gte IE 9]>
+      <style type="text/css">
+        .gradient {filter: none;
+    }
+  </style>
+<![endif]-->
+
+</head>
+<body>
+    <div class="wrapper">
+        <div id="menu-trigger" class="fa fa-bars"></div>
+        <div id="top">
+            <header>
+                <h1><a title="back to mangOH™ homepage" href="../index.html" class="navlink">mangOH™</a></h1>
+                <nav>
+                	<ul class="nav">
+                    	<li><a href="../index.html">mangOH™</a></li>
+                        <li><a href="products.html" class="link-selected">Products</a>
+                        	<ul class="subnav">
+                                <li><a href="mangoh_green.html" class="subnavlink">mangOH Green</a></li>
+                                <li><a href="mangoh_red.html" class="subnavlink">mangOH Red</a></li>
+                                <li><a href="iot_expansion_cards.html" class="subnavlink">IoT expansion cards</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../learning/learning.html">Learning</a></li>
+                        <li><a href="../news.html">News</a></li>
+                        <li><a href="http://forum.mangoh.io" target="_blank">Forum</a></li>
+                        <li><a href="https://github.com/mangoh" target="_blank" style="font-size:24px;color:#111;"><i class="fa fa-github"></i></a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <h2 class="pagetitle orangebg buildyourown">mangOH™ products</h2>
+        <div class="content whitebg">
+        	<h3 class="orange">&nbsp;mangOH™ boards<br />_</h3>
+        	<div class="module">
+                <a href="mangoh_green.html" class="borderbottomnone"><img src="../resources/img/mangoh_green_white.jpg" title="mangOH™ Green board" class="animated5" /></a>
+                <h5 class="green">mangOH™ Green</h5>
+                Lorem ipsum dolor sit amet, congue fierent dissentiet vis ut, ex volumus comprehensam ius.
+                <br /><br />
+                <center><a href="mangoh_green.html" class="modulebutton"><i class="fa fa-hospital-o"></i> See</a></center>
+            </div>
+            <div class="module">
+                <a href="mmangoh_red.html" class="borderbottomnone"><img src="../resources/img/mangoh_green_white.jpg" title="mangOH™ Green board" class="animated5" /></a>
+                <h5 class="green">mangOH™ Red</h5>
+                Lorem ipsum dolor sit amet, congue fierent dissentiet vis ut, ex volumus comprehensam ius.
+                <br /><br />
+                <center><a href="mangoh_red.html" class="modulebutton"><i class="fa fa-hospital-o"></i> See</a></center>
+            </div>
+            <br clear="left" /><br /><br />
+        </div>
+        <div class="content">
+        	<h3 class="orange">&nbsp;IoT expansion cards<br />_</h3>
+            IoT expansion cards enable industrial-grade and cost efficient IoT connectors sensors and networks connectivity modules for your IoT project.<br/>Want to provide an IoT expansion cards for mangOH™ and get referenced here? <a href="http://hub.sierrawireless.com/LP=353" target="_blank">Leave us a message! &nbsp;<i class="fa fa-commenting-o"></i></a>
+            <br /><br /><br />
+            <div class="module">
+                <a href="mangoh-iot_expansion_card-wifi_bluetooth.html" class="borderbottomnone"><img src="../resources/img/mangoh_iot-expansion-card_wifi-bluetooth.jpg" title="WiFi/Bluetooth IoT expansion card for mangOH board" /></a>
+                <h5 class="green">WiFi/Bluetooth IoT card</h5>
+                WiFi (a,b,g,n), Bluetooth (dual mode BT and BLE)<br />
+                <i>See also: <a href="http://processors.wiki.ti.com/index.php/WL18xx_Overview" target="_blank">WL18xx modules &nbsp;<i class="fa fa-external-link"></i></a>, <a href="http://www.ti.com/ww/en/analog/cc2530/" target="_blank">CC2530 chip &nbsp;<i class="fa fa-external-link"></i></a></i><br />
+                <center><a href="mangoh-iot_expansion_card-wifi_bluetooth.html" class="modulebutton"><i class="fa fa-hospital-o"></i> see</a></center>
+            </div>
+            <div class="module">
+                <a href="mangoh-iot_expansion_card-can.html" class="borderbottomnone"><img src="../resources/img/mangoh_iot-expansion-card_can.jpg" title="CAN IoT expansion card for mangOH board" /></a>
+                <h5 class="green">CAN IoT card</h5>
+                CAN bus (J1139 based CAN bus)<br />
+                <i>See also: <a href="http://www.microchip.com/wwwproducts/devices.aspx?dDocName=en010406" target="_blank">MCP2515 &nbsp;<i class="fa fa-external-link"></i></a></i><br />
+                <center><a href="mangoh-iot_expansion_card-can.html" class="modulebutton"><i class="fa fa-hospital-o"></i> see</a></center>
+            </div>
+            <div class="module">
+                <a href="mangoh-iot_expansion_card-ethernet.html" class="borderbottomnone"><img src="../resources/img/mangoh_iot-expansion-card_ethernet.jpg" title="Ethernet IoT expansion card for mangOH board" /></a>
+                <h5 class="green">Ethernet card</h5>
+                Ethernet expansion card for mangOH boards<br /><br />
+                <center><a href="mangoh-iot_expansion_card-ethernet.html" class="modulebutton"><i class="fa fa-hospital-o"></i> see</a></center>
+            </div>
+            <div class="module">
+                <a href="mangoh-iot_expansion_card-radio.html" class="borderbottomnone"><img src="../resources/img/mangoh_iot-expansion-card_radio.jpg" title="Radio IoT expansion card for mangOH board" /></a>
+                <h5 class="green">Radio card</h5>
+                Lorem ipsum dolor sit amet, congue fierent dissentiet vis ut, ex volumus comprehensam ius.
+                <br /><br />
+                <center><a href="mangoh-iot_expansion_card-radio.html" class="modulebutton"><i class="fa fa-hospital-o"></i> see</a></center>
+            </div>
+            <br clear="left" />
+            <!--<div class="module">
+                <img src="resources/img/mangoh_member_placeholder.png" title="#iot_module" />
+                <h5 class="green">IoT breakout board</h5>
+                Test point for all IoT connector signals.<br /><hr/><i>Availability: Mar 2016</i>
+            </div>
+            <div class="module">
+                <img src="resources/img/mangoh_member_placeholder.png" title="#iot_module" />
+                <h5 class="green">USB, GPIO, EEPROM IoT test board</h5>
+                USB , GPIO, EEPROM available on board. This is the first IoT board you'll want to use to get started with IoT connectors.<br /><hr/><i>Availability: Mar 2016</i>
+            </div>
+            <div class="module">
+                <img src="resources/img/mangoh_member_placeholder.png" title="#iot_module" />
+                <h5 class="green">USB hub</h5>
+                2 ports USB 2.0<br /><hr/><i>See also: <a href="http://www.microchip.com/wwwproducts/Devices.aspx?product=USB2512B" target="_blank">USB2512B &nbsp;<i class="fa fa-external-link"></i></a></i><br /><i>Availability: June 30th</i>
+            </div>
+            <br clear="left" />
+            <div class="module">
+                <img src="resources/img/mangoh_member_placeholder.png" title="#iot_module" />
+                <h5 class="green">DUST network</h5>
+                Smart mesh IP based dust module<br /><hr/><i>See also: <a href="http://www.linear.com/products/wireless_sensor_networks_-_dust_networks" target="_blank">Dust Networks &nbsp;<i class="fa fa-external-link"></i></a></i><br /><i>Availability: Mar 2016</i>
+            </div>
+            <div class="module">
+                <img src="resources/img/mangoh_member_placeholder.png" title="#iot_module" />
+                <h5 class="green">WiFi / Bluetooth</h5>
+                WiFi (a,b,g,n), Bluetooth (dual mode BT and BLE)<br /><hr/><i>See also: <a href="http://processors.wiki.ti.com/index.php/WL18xx_Overview" target="_blank">WL18xx modules &nbsp;<i class="fa fa-external-link"></i></a>, <a href="http://www.ti.com/ww/en/analog/cc2530/" target="_blank">CC2530 chip &nbsp;<i class="fa fa-external-link"></i></a></i><br /><i>Availability: June 30th</i>
+            </div>
+            <div class="module">
+                <img src="resources/img/mangoh_member_placeholder.png" title="#iot_module" />
+                <h5 class="green">Thread network</h5>
+                Thread module for home automation<br /><hr/><i>See also: <a href="http://www.taloncom.com/FreescaleRFmodules.htm" target="_blank">Talon Freescale RF Transceiver Modules &nbsp;<i class="fa fa-external-link"></i></a></i><br /><i>Availability: 2016</i>
+            </div>
+            <br clear="left" />
+            <div class="module">
+                <img src="resources/img/mangoh_member_placeholder.png" title="#iot_module" />
+                <h5 class="green">CAN bus</h5>
+                CAN bus (J1139 based CAN bus)<br /><hr/><i>See also: <a href="http://www.microchip.com/wwwproducts/devices.aspx?dDocName=en010406" target="_blank">MCP2515 &nbsp;<i class="fa fa-external-link"></i></a></i><br /><i>Availability: June 30th</i>
+            </div>  
+            <div class="module">
+                <img src="resources/img/mangoh_member_placeholder.png" title="#iot_module" />
+                <h5 class="green">RS232</h5>
+                4 Wire (TX/RX/CTS/RTS) USB to RS232 Interface. Based on FTDI FT230XS.<br /><hr/><i>Availability: Mar 2016</i>
+            </div>
+            <div class="module">
+                <img src="resources/img/mangoh_member_placeholder.png" title="#iot_module" />
+                <h5 class="green">RS485</h5>
+                2 Wire USB to RS485 interface. Based on FTDI FT230XS.<br /><hr/><i>Availability: Mar 2016</i>
+            </div>
+            <br clear="left" />
+            <div class="module">
+                <img src="resources/img/mangoh_member_placeholder.png" title="#iot_module" />
+                <h5 class="green">One-Wire Master</h5>
+                Dallas/Maxim One-Wire Master. Based on Maxim Dallas DS2482-100.<br /><hr/><i>Availability: Mar 2016</i>
+            </div>
+            <div class="module">
+                <img src="resources/img/mangoh_member_placeholder.png" title="#iot_module" />
+                <h5 class="green">8 Channels DIO</h5>
+                8 channels Digital I/O + Analog Temperature sensor. Based on microchip MCP23S08/SO + LM60 temperature sensor.<br /><hr/><i>Availability: 2016</i>
+            </div>
+            <br clear="left" />-->
+        </div>
+        <div class="content whitebg">
+        	<h3 class="orange">&nbsp;CF3 modules<br />_</h3>
+            mangOH designs accepts the following CF3 modules &amp; application processors. To run properly, mangOH designs need 1 application processor supporting <a href="http://legato.io">Legato™</a>, an open source Linux-based O/S and application framework. Legato provides useful libraries for applications running on mangOH™ platforms.
+            <br /><br />
+            Distributors of mangOH boards referenced above are distributing the following mangOH compatible CF3 modules:
+            <br /><br />
+        	<div class="module">
+                <img src="../resources/img/mangoh_airprime_wp8_white.jpg" title="Sierra Wireless AirPrime® WP8" class="animated5" />
+                <h5 class="green">AirPrime<sup>®</sup> WP8</h5>
+                Wireless (3G+GPS) processor from Sierra Wireless running <a href="http://legato.io" target="_blank">Legato <i class="fa fa-external-link"></i></a>, an open source Linux based O/S & framework for IoT
+            </div>
+            <div class="module">
+                <img src="../resources/img/mangoh_airprime_hl8_white.jpg" title="Sierra Wireless AirPrime® HL8" class="animated5" />
+                <h5 class="green">AirPrime<sup>®</sup> HL8</h5>
+                Wireless (3G+GPS) modem from Sierra Wireless that needs to be associated to an application processor on the other CF3 socket
+            </div>
+            <div class="module">
+                <img src="../resources/img/mangoh_cf3.jpg" title="Sierra Wireless AirPrime® HL8" class="animated5" />
+                <h5 class="green">Coming soon...</h5>
+                More CF3 modules and application processors coming soon, including 2G, 4G, LTE-M and non cellular too. Stay tuned!
+            </div>
+            <br clear="left" />
+        </div>
+        <div id="footer">
+        	<img src="../resources/img/sw_logo.png" />
+            ©2016 Sierra Wireless - This website and its content are provided under Creative Common Attribution 4.0 International License unless stated otherwise
+        </div>
+	</div>
+</body>
+</html>

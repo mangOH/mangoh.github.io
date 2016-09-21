@@ -1,0 +1,328 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>mangOH Green > Products mangOH™ - Project mangOH™ - IoT open source hardware for industry</title>
+	<meta name="description" content="Buy mangOH™ and facilitates the prototyping and the productization of IoT products for industry." />
+	<meta name="robots" content="index follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="../resources/css/style.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="../resources/css/font-awesome.css" rel="stylesheet" type="text/css" media="screen" />
+    <link rel="shortcut icon" href="../resources/img/mangoh_ico.ico">
+    <link rel="apple-touch-icon" href="#">
+    <link rel="apple-touch-icon" sizes="72x72" href="#">
+    <link rel="apple-touch-icon" sizes="114x114" href="#">
+    <link rel="apple-touch-icon" sizes="144x144" href="#">
+        
+    <script src="../resources/js/jquery-1.7.2.js" type="text/javascript"></script>
+    <script src="../resources/js/main.js" type="text/javascript"></script>
+    <script src="../resources/js/jquery.sticky.js"></script>
+	<script>
+      $(document).ready(function(){
+		var menuTrigger = $("#menu-trigger");
+		var isActive = true;
+		var checkSticky = function() {
+			var isVisible = menuTrigger.is(":visible");
+			if(isActive && isVisible) {
+				$("#top").unstick();
+				$(".palette").unstick();
+				isActive = false;
+			} else if(!isActive && !isVisible) {
+		 		$("#top").sticky({topSpacing:0, checkStickyFn:checkSticky});
+				$(".palette").sticky({topSpacing:0, checkStickyFn:checkSticky});
+				isActive = true;
+			}
+			return isActive;
+		};
+		  
+        $("#top").sticky({topSpacing:0, checkStickyFn:checkSticky});
+		$(".palette").sticky({topSpacing:0, checkStickyFn:checkSticky});
+		// Small memu
+		menuTrigger.click(function() {
+			$("#top")[this.opened ? "removeClass" : "addClass"]("menu-open");
+			$(this)[this.opened ? "removeClass" : "addClass"]("trigger-open");
+			this.opened = !this.opened;
+	    });
+		
+		$("#top a").click(function() {
+	        $("#top").removeClass("menu-open");
+			$("#menu-trigger").removeClass("trigger-open").get(0).opened = false;
+			
+	    });
+		
+      });
+    </script>
+    
+    <script type="text/javascript">
+		adroll_adv_id = "2QB7M5RH2ZB5FF3RQZSBCT";
+		adroll_pix_id = "XZ5UD7YEEVFJ7I5VYGF5QJ";
+		// adroll_email = "username@example.com"; // OPTIONAL: provide email to improve user identification
+		(function () {
+			var _onload = function(){
+				if (document.readyState && !/loaded|complete/.test(document.readyState)){setTimeout(_onload, 10);return}
+				if (!window.__adroll_loaded){__adroll_loaded=true;setTimeout(_onload, 50);return}
+				var scr = document.createElement("script");
+				var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+				scr.setAttribute('async', 'true');
+				scr.type = "text/javascript";
+				scr.src = host + "/j/roundtrip.js";
+				((document.getElementsByTagName('head') || [null])[0] ||
+					document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+			};
+			if (window.addEventListener) {window.addEventListener('load', _onload, false);}
+			else {window.attachEvent('onload', _onload)}
+		}());
+	</script>
+    
+    <script type="text/javascript">
+	var _elqQ = _elqQ || [];
+	_elqQ.push(['elqSetSiteId', '1799992300']);
+	_elqQ.push(['elqTrackPageView']);
+	(function() {
+	function async_load() {
+	var s = document.createElement('script');
+	s.type = 'text/javascript';
+	s.async = true;
+	s.src = '//img03.en25.com/i/elqCfg.min.js';
+	var x = document.getElementsByTagName('script')[0];
+	x.parentNode.insertBefore(s, x);
+	}
+	if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+	else if (window.attachEvent) window.attachEvent('onload', async_load);
+	})();
+	function elqTrackFlashClick(URL, referrer) {
+	_elqQ.push(['elqTrackPageView', URL, referrer]);
+	}
+	</script>
+    
+    <script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	
+	  ga('create', 'UA-718568-6', 'auto');
+	  ga('send', 'pageview');
+	
+	</script>
+    
+    <script>
+		function myFunction() {
+			document.getElementById("myDropdown").classList.toggle("show");
+		}
+		
+		window.onclick = function(event) {
+		  if (!event.target.matches('.dropbtn')) {
+		
+			var dropdowns = document.getElementsByClassName("dropdown-content");
+			var i;
+			for (i = 0; i < dropdowns.length; i++) {
+			  var openDropdown = dropdowns[i];
+			  if (openDropdown.classList.contains('show')) {
+				openDropdown.classList.remove('show');
+			  }
+			}
+		  }
+		}	
+	</script>
+    
+    
+    <!--[if lt IE 9]>
+    	<script type="text/javascript" src="resources/js/html5shiv.js"></script>
+	<![endif]-->
+    <!--[if gte IE 9]>
+      <style type="text/css">
+        .gradient {filter: none;
+    }
+  </style>
+<![endif]-->
+
+</head>
+<body>
+    <div class="wrapper">
+        <div id="menu-trigger" class="fa fa-bars"></div>
+        <div id="top">
+            <header>
+                <h1><a title="back to mangOH™ homepage" href="../index.html" class="navlink">mangOH™</a></h1>
+                <nav>
+                	<ul class="nav">
+                    	<li><a href="../index.html">mangOH™</a></li>
+                        <li><a href="products.html" class="link-selected">Products</a>
+                        	<ul class="subnav">
+                                <li><a href="mangoh_green.html" class="subnavlink">mangOH Green</a></li>
+                                <li><a href="mangoh_red.html" class="subnavlink">mangOH Red</a></li>
+                                <li><a href="iot_expansion_cards.html" class="subnavlink">IoT expansion cards</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../learning/learning.html">Learning</a></li>
+                        <li><a href="../news.html">News</a></li>
+                        <li><a href="http://forum.mangoh.io" target="_blank">Forum</a></li>
+                        <li><a href="https://github.com/mangoh" target="_blank" style="font-size:24px;color:#111;"><i class="fa fa-github"></i></a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <h2 class="pagetitle orangebg buildyourown">products</h2>
+        <div class="content big beebg opacity75" id="subnav" style="padding-top:25px;text-align:right;padding-right:4%;">
+        	<a href="mangoh_green.html" class="current orange">mangOH Green</a>
+            <a href="mangoh_red.html">mangOH Red</a>
+            <a href="iot_expansion_cards.html">IoT expansion cards</a>
+        </div>
+        <div class="content whitebg">
+        	<img src="../resources/img/mangoh-green.jpg" title="mangOH™ Green board" class="product-image" />
+        	<h3 class="orange bigger">&nbsp;mangOH™ Green<br />_</h3>
+            <p class="product-abstract">
+            	Designed specifically for cellular-enabled IoT applications, mangOH™ Green provides a sensor-to-cloud platform for rapidly prototyping ideas and getting them to production quickly.
+            	<br /><br />
+            Lorem ipsum dolor sit amet, partem repudiare ne nam, nulla causae eleifend sea id. Facilisis instructior eum ei, in exerci deterruisset pri. Eu est cibo clita, an sea sonet nemore imperdiet. Exerci tempor delicata sed ei, duo in duis quas elaboraret. Te tollit hendrerit pro, te eum suas tollit saperet.
+            </p>
+            <br clear="both" />
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn"><i class="fa fa-credit-card-alt"></i>&nbsp; Buy mangOH Green on</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="https://www.element14.com/community/docs/DOC-80845/l/mangoh-green-base-board-wpx5-prototype-kit" target="_blank">Element14</a>
+                </div>
+            </div>
+            <a href="../learning/getting-started/mangoh_green-fundamentals.html" class="modulebutton"><i class="fa fa-rocket"></i>&nbsp; Getting started</a>
+            <br clear="both" /><br /><br />
+        </div>
+        <div class="content">
+        	<h3 class="green">&nbsp;get inspired<br />_</h3>
+        	Lorem ipsum dolor sit amet, partem repudiare ne nam, nulla causae eleifend sea id. Facilisis instructior eum ei, in exerci deterruisset pri. Eu est cibo clita, an sea sonet nemore imperdiet. Exerci tempor delicata sed ei, duo in duis quas elaboraret. Te tollit hendrerit pro, te eum suas tollit saperet.
+            <br /><br /><br />
+            <div class="use-case-box use-case-box-one">
+                <h5>Use case #1</h5>
+                Lorem ipsum dolor sit amet, partem repudiare ne nam, nulla causae eleifend sea id. 
+                <br /><br />
+                <a href="products/mangoh_red.html" class="callactionhollow"><i class="fa fa-hospital-o"></i>&nbsp; See</a>
+            </div>
+            <div class="use-case-box use-case-box-one">
+                <h5>Use case #2</h5>
+                Lorem ipsum dolor sit amet, partem repudiare ne nam, nulla causae eleifend sea id. 
+                <br /><br />
+                <a href="products/mangoh_red.html" class="callactionhollow"><i class="fa fa-hospital-o"></i>&nbsp; See</a>
+            </div>
+            <div class="use-case-box use-case-box-one">
+                <h5>Use case #3</h5>
+                Lorem ipsum dolor sit amet, partem repudiare ne nam, nulla causae eleifend sea id. 
+                <br /><br />
+                <a href="products/mangoh_red.html" class="callactionhollow"><i class="fa fa-hospital-o"></i>&nbsp; See</a>
+            </div>
+            <br clear="both" /><br /><br />
+        </div>
+        <div class="content whitebg">
+        	<h3 class="green">&nbsp;specifications<br />_</h3>
+            <h4 class="green">&nbsp;hardware features</h3>
+            <div class="feature feature01">
+                <h4>Eurocard format</h4>
+                100mm x 120mm (4in x 4.75in) standard Eurocard format
+            </div>
+            <div class="feature feature02">
+                <h4>3 IoT Connector slots</h4>
+                3 IoT Connectors slots QSFP+ (industrial-grade) to connect sensors, networks, with hot plugin feature
+            </div>
+            <div class="feature feature03">
+                <h4>2 CF3 connectors</h4>
+                2 CF3 connectors (industrial-grade) for application processors and wireless modules 
+            </div>
+            <div class="feature feature04 first">
+                <h4>1 Arduino compatible connector</h4>
+                1 Arduino compatible connector supporting Arduino compatible shields
+            </div>
+            <div class="feature feature05">
+                <h4>USB / RS232 / RJ45 / Audio</h4>
+                1 USB 2.0 Micro, 1 RS232/Serial, 1 RJ45/Ethernet, 1 Audio Jack
+            </div>
+            <div class="feature feature06">
+                <h4>SD Card</h4>
+                Micro SD Card slot
+            </div>
+            <div class="feature feature07 first">
+                <h4>cellular and GPS</h4>
+                3 U.FL antenna connectors: primary, secondary/diversity, GPS/GNSS. SMA option available
+                <br /><br />
+            </div>
+            <div class="feature feature08">
+                <h4>on-board sensors</h4>
+                Accelerometer and gyroscope
+            </div>
+            <div class="feature feature09">
+                <h4>battery</h4>
+                Battery enabled and battery charging management
+                <br /><br />
+            </div>
+            <br clear="left" /><br /><br />
+            <h4 class="green">&nbsp;software features</h3>
+            Partnering with the open source <a href="http://legato.io" target="_blank">Legato™</a> Linux platform on the WP Series of embedded modules from Sierra Wireless, mangOH Green developers can begin creating their software and web applications immediately. The Arduino compatible connectors and IoT Connectors make any combination of wireless, wired, and sensor technology easy to add with:<br/><br/>
+            <ul>
+                <li>◆ Built-in libraries to connect any Arduino shield to the cloud (no need to change the sketch, just add the AirVantage library to the sketch and you are good to go)</li>
+                <li>◆ Automatic detection of IoT Connectors to load drivers and applications (no integration required, just plug in and start building your apps)</li>
+                <li>◆ Data management service that builds local intelligence on the “edge” as well as pushes data to the big data servers.</li>
+            </ul>
+            <br clear="left" /><br /><br />
+        </div>
+        <div class="content greenbg opacity75 white">
+        	<h3 class="">&nbsp;documentation<br />_</h3>
+        	Lorem ipsum dolor sit amet, partem repudiare ne nam, nulla causae eleifend sea id. Facilisis instructior eum ei, in exerci deterruisset pri. Eu est cibo clita, an sea sonet nemore imperdiet. Exerci tempor delicata sed ei, duo in duis quas elaboraret. Te tollit hendrerit pro, te eum suas tollit saperet.
+            <br /><br /><br />
+            <h4 class="white">&nbsp;User and developer guides</h3>
+            <div class="module ">
+                <img src="../resources/img/mangoh-doc-user_guide.png" title="mangOH Green user guide" />
+                <h5 class="">User guide</h5>
+                Lorem ipsum dolor sit amet, partem repudiare ne nam, nulla causae eleifend sea id
+                <br /><br />
+                <center><a href="../../docs/4118902%20mangOH%20Green%20(DV4)%20User%20Guide%20v1.pdf" target="_blank" class="modulebutton"><i class="fa fa-file-pdf-o"></i> User guide (PDF)</a></center>
+            </div>
+            <div class="module ">
+              <img src="../resources/img/mangoh-doc-developer_guide.png" title="mangOH Green developer guide" />
+                <h5 class="">Developer guide</h5>
+                Lorem ipsum dolor sit amet, partem repudiare ne nam, nulla causae eleifend sea id
+                <br /><br />
+                <center><a href="../../docs/4118903%20mangOH%20Green%20(DV4)%20Developer's%20Guide%20v1.pdf" target="_blank" class="modulebutton"><i class="fa fa-file-pdf-o"></i> Developer guide (PDF)</a></center>
+            </div>
+            <br clear="both" /><br /><br />
+            <h4 class="white">&nbsp;Resources</h3>
+            <div class="module ">
+                <img src="../resources/img/mangoh-doc-bom.png" title="mangOH Green BoM" />
+                <h5 class="">BoM</h5>
+                Lorem ipsum dolor sit amet, partem repudiare ne nam, nulla causae eleifend sea id
+                <br /><br />
+                <center><a href="../../docs/BOM_mangOH_Green_DV4_1600643.xls" target="_blank" class="modulebutton"><i class="fa fa-file-excel-o"></i> BoM (XLS)</a></center>
+        	</div>
+            <div class="module ">
+                <img src="../resources/img/mangoh-doc-schematics.png" title="mangOH Green schematics" />
+                <h5 class="">Schematics</h5>
+                Lorem ipsum dolor sit amet, partem repudiare ne nam, nulla causae eleifend sea id
+                <br /><br />
+                <center><a href="../../docs/schematic_mangOH_Green_DV4_2500905.pdf" target="_blank" class="modulebutton"><i class="fa fa-file-pdf-o"></i> Schematics (PDF)</a></center>
+            </div>
+            <div class="module ">
+                <img src="../resources/img/mangoh-doc-gerbers.png" title="mangOH Green gerbers" />
+                <h5 class="">Gerbers</h5>
+                Lorem ipsum dolor sit amet, partem repudiare ne nam, nulla causae eleifend sea id
+                <br /><br />
+                <center><a href="../../docs/gerber_mangOH_Green_DV4_1401063.zip" target="_blank" class="modulebutton"><i class="fa fa-file-zip-o"></i> Gerbers (ZIP)</a></center>
+            </div>
+            <div class="module ">
+                <img src="../resources/img/mangoh-doc-placement.png" title="mangOH Green placement" />
+                <h5 class="">Placement</h5>
+                Lorem ipsum dolor sit amet, partem repudiare ne nam, nulla causae eleifend sea id
+                <br /><br />
+                <center><a href="../../docs/mangOH_Green_DV4_Fabrication_1600643.pdf" target="_blank" class="modulebutton"><i class="fa fa-file-pdf-o"></i> Placement (PDF)</a></center>
+            </div>
+            <div class="module ">
+                <img src="../resources/img/mangoh-doc-cad.png" title="mangOH Green Allegro/OrCAD" />
+                <h5 class="">Allegro/OrCAD resources</h5>
+                Lorem ipsum dolor sit amet, partem repudiare ne nam, nulla causae eleifend sea id
+                <br /><br />
+                <center><a href="../../docs/Allegro_OrCad_mangOH_Green_DV4_12082016.rar" target="_blank" class="modulebutton"><i class="fa fa-file-zip-o"></i> Allegro/OrCAD (ZIP)</a></center>
+            </div>
+            <br clear="both" /><br /><br />
+        </div>
+        <div id="footer">
+        	<img src="../resources/img/sw_logo.png" />
+            ©2016 Sierra Wireless - This website and its content are provided under Creative Common Attribution 4.0 International License unless stated otherwise
+        </div>
+	</div>
+</body>
+</html>
