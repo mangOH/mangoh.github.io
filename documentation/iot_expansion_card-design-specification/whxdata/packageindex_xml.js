@@ -1,0 +1,1 @@
+gXMLBuffer="<?xml version=\"1.0\" encoding=\"utf-8\"?><cki><ck fm=\"#\" to=\"2\"/><ck fm=\"20\" to=\"and\"/><ck fm=\"another\" to=\"connection\"/><ck fm=\"connector\" to=\"footprint\"/><ck fm=\"for\" to=\"iot\"/><ck fm=\"iot2x\" to=\"of\"/><ck fm=\"offset\" to=\"rts\"/><ck fm=\"run\" to=\"their\"/><ck fm=\"them\" to=\"•\"/><ck fm=\"them\" to=\"•\"/></cki>";

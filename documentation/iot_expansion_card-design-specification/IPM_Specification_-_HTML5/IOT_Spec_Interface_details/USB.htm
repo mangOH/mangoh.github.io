@@ -1,0 +1,186 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+ <title>USB</title>
+
+ <meta content="OEM, CDMA2000, 1xRTT, Watcher" name="search-keywords" />
+ <meta name="generator" content="Adobe FrameMaker 2015" />
+ <meta name="Originator" content="ImportMif" />
+ <meta name="OriginalFile" content="N:\JaggedPeak\Current Projects\SWI\CTO\4117166 IoT Module Spec v7\IOT Spec Interface details.fm" />
+ <link rel="stylesheet" href="IOT_Spec_Interface_details.css" type="text/css" />
+
+
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+p.WebHelpNavBar { text-align:right; }
+-->
+</style>
+
+<script type="text/javascript" src="../../template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="../../template/scripts/common.min.js"></script>
+<script type="text/javascript" src="../../template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="../../template/scripts/constants.js"></script>
+<script type="text/javascript" src="../../template/scripts/utils.js"></script>
+<script type="text/javascript" src="../../template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="../../template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="../../template/scripts/mhver.js"></script>
+<script type="text/javascript" src="../../template/scripts/settings.js"></script>
+<script type="text/javascript" src="../../template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="../../template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="../../template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="../../template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="../../template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="../../template/styles/topic.min.css">
+<script type="text/javascript" >
+gRootRelPath = "../..";
+gCommonRootRelPath = "../..";
+gTopicId = "3.0_3";
+</script>
+ <meta name="brsprev" value="IPM_Specification_-_HTML5/IOT_Spec_Interface_details/IoT_Expansion_Card_Platform_Features.htm">
+ <meta name="brsnext" value="IPM_Specification_-_HTML5/IOT_Spec_Interface_details/SDIO_Interface.htm">
+ <meta name="topic-breadcrumbs" content="3: Interfaces Specification" />
+</head>
+
+<body dir="ltr">
+<script type="text/javascript" src="../../ehlpdhtm.js"></script>
+<div dir="ltr">
+  <h1>3.3 <a name="XREF_46854_3_3_USB"></a>USB</h1>
+  <p class="FM_Body">The <uservariable x-value="IoT Expansion Card" x-showvalue="TRUE" name="IOT_Card" x-format="IOT_Card">IoT Expansion Card</uservariable>&#160;supports one high-speed USB2.0 Interface that conforms to <span class="FM_Emphasis"></span><a href="../References/Reference_Documents.htm#XREF_97029_6_Universal_Serial"><span class="FM_Emphasis">[3]&nbsp;Universal Serial Bus Specification, Revision 2.0</span></a><span class="FM_Emphasis"></span>. The interface may be used for application control and data transfer between the <uservariable x-value="expansion card" x-showvalue="TRUE" name="IOT_card__2nd_use_" x-format="IOT_card__2nd_use_">expansion card</uservariable>&#160;and a host application.</p>
+<div width="100%" align="left">
+  <table dir="ltr" style=" border-spacing:0; padding-left:4.00pt; padding-top:6.00pt; padding-right:4.00pt; padding-bottom:4.00pt; float:alignleft; margin-bottom:12.00pt; width:100%; direction:ltr; max-width:361.00pt;" cellspacing="0">
+   <caption dir="ltr" class="FM_TableTitle" style="Direction:ltr;
+">Table 3-1:<span style="font-size: small;">&nbsp;&nbsp;&nbsp;</span>USB2.0 Interface Pins</caption>
+   <tr style=" height : 22.40pt;background : #b2b2b2;">
+   <th style="width : 25.000pt; background : #b2b2b2;border-top-style: solid; border-top-width: 2px; border-top-color: #000000; border-left-style: solid; border-left-width: 1px; border-left-color: #000000; border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #000000; vertical-align : bottom;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableColumnHead">Pin</p>
+</th>
+   <th style="width : 68.000pt; background : #b2b2b2;border-top-style: solid; border-top-width: 2px; border-top-color: #000000; border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #000000; vertical-align : bottom;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableColumnHead">Signal name</p>
+</th>
+   <th style="width : 28.000pt; background : #b2b2b2;border-top-style: solid; border-top-width: 2px; border-top-color: #000000; border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #000000; vertical-align : bottom;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableColumnHead">I/O<a name="FTB_1"></a><a href="#FTH_1"><sup>a</sup></a></p>
+</th>
+   <th style="width : 141.000pt; background : #b2b2b2;border-top-style: solid; border-top-width: 2px; border-top-color: #000000; border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #000000; vertical-align : bottom;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableColumnHead">Function</p>
+</th>
+   <th style="width : 54.000pt; background : #b2b2b2;border-top-style: solid; border-top-width: 2px; border-top-color: #000000; border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #000000; vertical-align : bottom;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableColumnHead">If unused</p>
+</th>
+   <th style="width : 45.000pt; background : #b2b2b2;border-top-style: solid; border-top-width: 2px; border-top-color: #000000; border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #000000; vertical-align : bottom;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableColumnHead">Voltage</p>
+</th>
+</tr>
+   <tr style=" height : 29.00pt; background : #ffffff;">
+   <td style="width : 25.000pt; background : #ffffff;border-left-style: solid; border-left-width: 1px; border-left-color: #000000; border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">1</p>
+</td>
+   <td style="width : 68.000pt; background : #ffffff;border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">VCC_5V0</p>
+</td>
+   <td style="width : 28.000pt; background : #ffffff;border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">I</p>
+</td>
+   <td style="width : 141.000pt; background : #ffffff;border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">USB power supply<span style="font-size: x-small;">&nbsp;</span>/<span style="font-size: x-small;">&nbsp;</span>5V power supply</p>
+</td>
+   <td style="width : 54.000pt; background : #ffffff;border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">No connect</p>
+</td>
+   <td style="width : 45.000pt; background : #ffffff;border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">5.0V</p>
+</td>
+</tr>
+   <tr style=" height : 19.00pt; background : #ffffff;">
+   <td style="width : 25.000pt; background : #ffffff;border-left-style: solid; border-left-width: 1px; border-left-color: #000000; border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">2</p>
+</td>
+   <td style="width : 68.000pt; background : #ffffff;border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">USB_D+</p>
+</td>
+   <td style="width : 28.000pt; background : #ffffff;border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">I/O</p>
+</td>
+   <td style="width : 141.000pt; background : #ffffff;border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">Differential data interface positive</p>
+</td>
+   <td style="width : 54.000pt; background : #ffffff;border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">No connect</p>
+</td>
+   <td style="width : 45.000pt; background : #ffffff;border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">&nbsp;</p>
+</td>
+</tr>
+   <tr style=" height : 29.00pt; background : #ffffff;">
+   <td style="width : 25.000pt; background : #ffffff;border-left-style: solid; border-left-width: 1px; border-left-color: #000000; border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">3</p>
+</td>
+   <td style="width : 68.000pt; background : #ffffff;border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">USB_D-</p>
+</td>
+   <td style="width : 28.000pt; background : #ffffff;border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">I/O</p>
+</td>
+   <td style="width : 141.000pt; background : #ffffff;border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">Differential data interface negative</p>
+</td>
+   <td style="width : 54.000pt; background : #ffffff;border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">No connect</p>
+</td>
+   <td style="width : 45.000pt; background : #ffffff;border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">&nbsp;</p>
+</td>
+</tr>
+   <tr style=" height : 19.00pt; background : #ffffff;">
+   <td style="width : 25.000pt; background : #ffffff;border-left-style: solid; border-left-width: 1px; border-left-color: #000000; border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">4</p>
+</td>
+   <td style="width : 68.000pt; background : #ffffff;border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">GND</p>
+</td>
+   <td style="width : 28.000pt; background : #ffffff;border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">-</p>
+</td>
+   <td style="width : 141.000pt; background : #ffffff;border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">Ground</p>
+</td>
+   <td style="width : 54.000pt; background : #ffffff;border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">No connect</p>
+</td>
+   <td style="width : 45.000pt; background : #ffffff;border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">&nbsp;</p>
+</td>
+</tr>
+  </table>
+</div>
+<div width="100%" align="left">
+  <table dir="ltr" style=" float:alignleft; margin-left:0.00pt; margin-bottom:12.00pt; direction:ltr; margin-top:6.00pt; width:100%; max-width:361.00pt;">
+   <tr>
+   <td>
+   <p class="FM_TableFootnote"><a name="FTH_1"></a><sup><a href="#FTB_1">a</a></sup>Direction with respect to <uservariable x-value="IoT Expansion Card" x-showvalue="TRUE" name="IOT_Card" x-format="IOT_Card">IoT Expansion Card</uservariable></p>
+</td></tr>
+  </table>
+</div>
+  </div>
+</body>
+</html>

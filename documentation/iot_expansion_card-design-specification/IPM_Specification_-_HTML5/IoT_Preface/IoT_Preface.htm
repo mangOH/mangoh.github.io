@@ -1,0 +1,272 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+ <title>Preface</title>
+
+ <meta name="generator" content="Adobe FrameMaker 2015" />
+ <meta name="Originator" content="ImportMif" />
+ <meta name="OriginalFile" content="N:\JaggedPeak\Current Projects\SWI\CTO\4117166 IoT Module Spec v7\IoT Preface.fm" />
+ <link rel="stylesheet" href="IoT_Preface.css" type="text/css" />
+
+
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+p.WebHelpNavBar { text-align:right; }
+-->
+</style>
+
+<script type="text/javascript" src="../../template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="../../template/scripts/common.min.js"></script>
+<script type="text/javascript" src="../../template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="../../template/scripts/constants.js"></script>
+<script type="text/javascript" src="../../template/scripts/utils.js"></script>
+<script type="text/javascript" src="../../template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="../../template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="../../template/scripts/mhver.js"></script>
+<script type="text/javascript" src="../../template/scripts/settings.js"></script>
+<script type="text/javascript" src="../../template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="../../template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="../../template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="../../template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="../../template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="../../template/styles/topic.min.css">
+<script type="text/javascript" >
+gRootRelPath = "../..";
+gCommonRootRelPath = "../..";
+gTopicId = "";
+</script>
+ <meta name="brsprev" value="IPM_Specification_-_HTML5/Appendix_-_Acronyms/Abbreviations1.htm">
+</head>
+
+<body dir="ltr">
+<script type="text/javascript" src="../../ehlpdhtm.js"></script>
+
+ <div dir="ltr">
+  <p class="FM_ChapterTitleNoNum"><a name="TOC_Legal_Copyright"></a>Legal<span style="font-size: x-small;">&nbsp;</span>/<span style="font-size: x-small;">&nbsp;</span>Copyright<span style="font-size: x-small;">&nbsp;</span>/<span style="font-size: x-small;">&nbsp;</span>Trademarks<span style="font-size: x-small;">&nbsp;</span>/<span style="font-size: x-small;">&nbsp;</span>Contact Us</p>
+
+  <p class="FM_HeadingMargin">Limitation of Liability</p>
+  <p class="FM_Body">The information in this manual is subject to change without notice and does not represent a commitment on the part of Sierra Wireless. SIERRA WIRELESS AND ITS AFFILIATES SPECIFICALLY DISCLAIM LIABILITY FOR ANY AND ALL DIRECT, INDIRECT, SPECIAL, GENERAL, INCIDENTAL, CONSEQUENTIAL, PUNITIVE OR EXEMPLARY DAMAGES INCLUDING, BUT NOT LIMITED TO, LOSS OF PROFITS OR REVENUE OR ANTICIPATED PROFITS OR REVENUE ARISING OUT OF THE USE OR INABILITY TO USE ANY SIERRA WIRELESS PRODUCT, EVEN IF SIERRA WIRELESS AND/OR ITS AFFILIATES HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES OR THEY ARE FORESEEABLE OR FOR CLAIMS BY ANY THIRD PARTY.</p>
+  <p class="FM_Body">Notwithstanding the foregoing, in no event shall Sierra Wireless and/or its affiliates aggregate liability arising under or in connection with the Sierra Wireless product, regardless of the number of events, occurrences, or claims giving rise to liability, be in excess of the price paid by the purchaser for the Sierra Wireless product.</p>
+  <p class="FM_HeadingMargin">Patents</p>
+  <p class="FM_Body">This document contains information which is proprietary to Sierra Wireless Inc. and is licensed pursuant to Creative Commons Attribution 4.0 International License.</p>
+  <p class="FM_HeadingMargin">Document details</p>
+  <p class="FM_Body">Title: IoT Expansion Card Design Specification</p>
+  <p class="FM_Body">Author: Sierra Wireless</p>
+  <p class="FM_Body">Source: <span class="FM_Link"><a href="http://mangoh.io/">http://mangoh.io/</a></span></p>
+  <p class="FM_HeadingMargin"><a name="XREF_86400_Copyright"></a>Copyright</p>
+  <p class="FM_Body">© <variable name="time" x-format="yyyy">2016</variable>&#160;Sierra Wireless. Licensed under the Creative Commons Attribution 4.0 license, <span class="FM_Link"><a href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</a></p>
+  <div align="left"><img alt="cc_by.png" style=" width:100%; max-width:99.749pt;" id="image0" src="cc_by.png" />
+  </div>
+  <p class="FM_Body"><span class="FM_Link"></span></span></p>
+  <p class="FM_HeadingMargin">Disclaimer</p>
+  <p class="FM_Body">Indicate any modifications made to the original document.</p>
+  <p class="FM_HeadingMargin">Trademarks</p>
+  <p class="FM_Body">mangOH™ and the mangOH logo are trademarks of Sierra Wireless.</p>
+  <p class="FM_Body">Other trademarks are the property of their respective owners.</p>
+  <p class="FM_HeadingMargin"><a name="XREF_49611_Contact_Information"></a>Contact Information</p>
+<div width="100%" align="left">
+  <table dir="ltr" style=" border-spacing:0; padding-left:4.00pt; padding-top:4.00pt; padding-right:4.00pt; padding-bottom:4.00pt; float:alignleft; width:100%; direction:ltr; max-width:360.60pt;" cellspacing="0">
+   <tr style=" height : 17.00pt;">
+   <td rowspan="3" style="width : 84.600pt; border-top-style: solid; border-top-width: 1px; border-top-color: #000000; border-left-style: solid; border-left-width: 1px; border-left-color: #000000; border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">Sales Desk:</p>
+</td>
+   <td style="width : 63.000pt; border-top-style: solid; border-top-width: 1px; border-top-color: #000000; border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">Phone:</p>
+</td>
+   <td style="width : 213.000pt; border-top-style: solid; border-top-width: 1px; border-top-color: #000000; border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">1-604-232-1488</p>
+</td>
+</tr>
+   <tr style=" height : 17.00pt;">
+   <td style="width : 63.000pt; border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">Hours:</p>
+</td>
+   <td style="width : 213.000pt; border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">8:00 <span style="font-variant : small-caps; ">am</span>&#160;to 5:00 <span style="font-variant : small-caps; ">pm</span> Pacific Time</p>
+</td>
+</tr>
+   <tr style=" height : 17.00pt;">
+   <td style="width : 63.000pt; border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">Contact:</p>
+</td>
+   <td style="width : 213.000pt; border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody" style="font-family : 'Microsoft Sans Serif'; color   : #0000ff;"><span class="FM_Link"><a href="http://www.sierrawireless.com/sales">http://www.sierrawireless.com/sales</a></span></p>
+</td>
+</tr>
+   <tr style=" height : 56.00pt;">
+   <td style="width : 84.600pt; border-left-style: solid; border-left-width: 1px; border-left-color: #000000; border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">Post:</p>
+</td>
+   <td colspan="2" style="width : 276.000pt; border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">Sierra Wireless</p>
+   <p class="FM_TableBody">13811 Wireless Way</p>
+   <p class="FM_TableBody">Richmond, BC</p>
+   <p class="FM_TableBody">Canada &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;V6V 3A4</p>
+</td>
+</tr>
+   <tr style=" height : 17.00pt;">
+   <td style="width : 84.600pt; border-left-style: solid; border-left-width: 1px; border-left-color: #000000; border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">Technical support:</p>
+</td>
+   <td colspan="2" style="width : 276.000pt; border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody" style="font-family : 'Microsoft Sans Serif'; color   : #0000ff;"><span class="FM_Link"><a href="mailto:support@sierrawireless.com">support@sierrawireless.com</a></span></p>
+</td>
+</tr>
+   <tr style=" height : 17.00pt;">
+   <td style="width : 84.600pt; border-left-style: solid; border-left-width: 1px; border-left-color: #000000; border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">RMA support:</p>
+</td>
+   <td colspan="2" style="width : 276.000pt; border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody" style="font-family : 'Microsoft Sans Serif'; color   : #0000ff;"><span class="FM_Link"><a href="mailto:repairs@sierrawireless.com">repairs@sierrawireless.com</a></span></p>
+</td>
+</tr>
+   <tr style=" height : 17.00pt;">
+   <td style="width : 84.600pt; border-left-style: solid; border-left-width: 1px; border-left-color: #000000; border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">Fax:</p>
+</td>
+   <td colspan="2" style="width : 276.000pt; border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">1-604-231-1109</p>
+</td>
+</tr>
+   <tr style=" height : 17.00pt;">
+   <td style="width : 84.600pt; border-left-style: solid; border-left-width: 1px; border-left-color: #000000; border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">Web:</p>
+</td>
+   <td colspan="2" style="width : 276.000pt; border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody" style="font-family : 'Microsoft Sans Serif'; color   : #0000ff;"><span class="FM_Link"><a href="http://sierrawireless.com">www.sierrawireless.com</a></span></p>
+</td>
+</tr>
+  </table>
+</div>
+  <p class="FM_Body">Consult our website for up-to-date product descriptions, documentation, application notes, firmware upgrades, troubleshooting tips, and press releases:</p>
+  <p class="FM_Body"><a href="http://sierrawireless.com"></a><span class="FM_Link">www.sierrawireless.com</span></p>
+  <p class="FM_HeadingMargin" style="margin-top  : 14.000pt;">Revision History</p>
+<div width="100%" align="left">
+  <table dir="ltr" style=" border-spacing:0; padding-left:4.00pt; padding-top:6.00pt; padding-right:4.00pt; padding-bottom:4.00pt; float:alignleft; width:100%; direction:ltr; max-width:487.50pt;" cellspacing="0">
+   <tr style=" height : 31.00pt;background : #e5ecf1;">
+   <th style="width : 51.750pt; background : #e5ecf1;border-top-style: solid; border-top-width: 2px; border-top-color: #000000; border-left-style: solid; border-left-width: 1px; border-left-color: #000000; border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableColumnHead">Revision number</p>
+</th>
+   <th style="width : 84.000pt; background : #e5ecf1;border-top-style: solid; border-top-width: 2px; border-top-color: #000000; border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableColumnHead">Release date</p>
+</th>
+   <th style="width : 351.751pt; background : #e5ecf1;border-top-style: solid; border-top-width: 2px; border-top-color: #000000; border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableColumnHead">Changes</p>
+</th>
+</tr>
+   <tr style=" height : 19.00pt; background : #ffffff;">
+   <td style="width : 51.750pt; background : #ffffff;border-left-style: solid; border-left-width: 1px; border-left-color: #000000; border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">1</p>
+</td>
+   <td style="width : 84.000pt; background : #ffffff;border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">June 2015</p>
+</td>
+   <td style="width : 351.751pt; background : #ffffff;border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">Creation (limited release)</p>
+</td>
+</tr>
+   <tr style=" height : 159.00pt; background : #ffffff;">
+   <td style="width : 51.750pt; background : #ffffff;border-left-style: solid; border-left-width: 1px; border-left-color: #000000; border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">2</p>
+</td>
+   <td style="width : 84.000pt; background : #ffffff;border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">January 2016</p>
+</td>
+   <td style="width : 351.751pt; background : #ffffff;border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">Added power class and height class specifications</p>
+   <p class="FM_TableBody">Removed PWM</p>
+   <p class="FM_TableBody">Added ‘Class C’ temperature spec to <a href="../IOT_Spec_Technical_Specifications/Environmental_Specifications.htm#XREF_48240_Environmental">Table 2-1:<span style="font-size: small;">&nbsp;&nbsp;&nbsp;</span></a></p>
+   <p class="FM_TableBody">Added <a href="../IOT_Spec_Technical_Specifications/Power_Requirement.htm#XREF_50724_2_3_2_Module_Power">Power Category</a></p>
+   <p class="FM_TableBody">Added <a><span class="FM_blue_color">Connector Height Category on page&nbsp;23</span></a></p>
+   <p class="FM_TableBody">Updated <a href="../IOT_Spec_Mechanical/Mechanical_Dimensions.htm#XREF_56588_Single_Slot_Module">Figure 4-2:<span style="font-size: small;">&nbsp;&nbsp;&nbsp;</span></a> (pad dimension 2.10 replaces 1.60)</p>
+   <p class="FM_TableBody">Added <a href="../IOT_Spec_Mechanical/IoT_Expansion_Card-side_Requirements_and_Considerations.htm#XREF_31381_Slot_location_for">Figure 4-4:<span style="font-size: small;">&nbsp;&nbsp;&nbsp;</span></a></p>
+   <p class="FM_TableBody">Updated <a href="../IOT_Spec_Mechanical/IoT_Expansion_Card-side_Requirements_and_Considerations.htm#XREF_89323_EEPROM_Structure">Table 4-2:<span style="font-size: small;">&nbsp;&nbsp;&nbsp;</span></a>&#160;(board name field size; added example header columns; added ‘Additional fields’)</p>
+   <p class="FM_TableBody">Updated <a><span class="FM_blue_color">Figure&nbsp;5-3 on page&nbsp;35</span></a> (added Detail A and Detail B)</p>
+   <p class="FM_TableBody">Updated <a><span class="FM_blue_color">Figure&nbsp;5-4 on page&nbsp;36</span></a> (added Detail A and Detail B)</p>
+   <p class="FM_TableBody">Added <a href="../Mounting/Self-enclosed_IoT_Expansion_Card.htm#XREF_64962_5_2_Self_enclosed">Self-enclosed IoT Expansion Card</a></p>
+</td>
+</tr>
+   <tr style=" height : 19.00pt; background : #ffffff;">
+   <td style="width : 51.750pt; background : #ffffff;border-left-style: solid; border-left-width: 1px; border-left-color: #000000; border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">3</p>
+</td>
+   <td style="width : 84.000pt; background : #ffffff;border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">February 2016</p>
+</td>
+   <td style="width : 351.751pt; background : #ffffff;border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">Changed terminology from ‘IoT Modules’ to ‘IoT Connectors’</p>
+</td>
+</tr>
+   <tr style=" height : 52.00pt; background : #ffffff;">
+   <td style="width : 51.750pt; background : #ffffff;border-left-style: solid; border-left-width: 1px; border-left-color: #000000; border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">4</p>
+</td>
+   <td style="width : 84.000pt; background : #ffffff;border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">April 2016</p>
+</td>
+   <td style="width : 351.751pt; background : #ffffff;border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">Updated (modified bottom component placement area dimensions) <a href="../IOT_Spec_Mechanical/Mechanical_Dimensions.htm#XREF_56588_Single_Slot_Module">Figure 4-2:<span style="font-size: small;">&nbsp;&nbsp;&nbsp;</span></a>, <a href="../IOT_Spec_Mechanical/Mechanical_Dimensions.htm#XREF_44175_Double_Slot_Module">Figure 4-3:<span style="font-size: small;">&nbsp;&nbsp;&nbsp;</span></a>, <a href="../Mounting/ESD_Protection.htm#XREF_47372_IoT_Module_ESD">Figure 5-8:<span style="font-size: small;">&nbsp;&nbsp;&nbsp;</span></a>. </p>
+   <p class="FM_TableBody">Updated (consolidated notes, no specification changes) <a href="../IOT_Spec_Mechanical/IoT_Expansion_Card-side_Requirements_and_Considerations.htm#XREF_31381_Slot_location_for">Figure 4-4:<span style="font-size: small;">&nbsp;&nbsp;&nbsp;</span></a>, <a href="../Mounting/Mounting_Methods1.htm#XREF_23872_Host_side_Mounting">Figure 5-2:<span style="font-size: small;">&nbsp;&nbsp;&nbsp;</span></a>, <a><span class="FM_blue_color">Figure&nbsp;5-3 on page&nbsp;35</span></a>, <a><span class="FM_blue_color">Figure&nbsp;5-4 on page&nbsp;36</span></a>.</p>
+</td>
+</tr>
+   <tr style=" height : 19.00pt; background : #ffffff;">
+   <td style="width : 51.750pt; background : #ffffff;border-left-style: solid; border-left-width: 1px; border-left-color: #000000; border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">5</p>
+</td>
+   <td style="width : 84.000pt; background : #ffffff;border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">June 2016</p>
+</td>
+   <td style="width : 351.751pt; background : #ffffff;border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">Replaced ‘IOT Connector’ references with ‘IOT Expansion Card’</p>
+</td>
+</tr>
+   <tr style=" height : 19.00pt; background : #ffffff;">
+   <td style="width : 51.750pt; background : #ffffff;border-left-style: solid; border-left-width: 1px; border-left-color: #000000; border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">6</p>
+</td>
+   <td style="width : 84.000pt; background : #ffffff;border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">Aug 2016</p>
+</td>
+   <td style="width : 351.751pt; background : #ffffff;border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">Corrected document # on page footers (cover # was okay)</p>
+</td>
+</tr>
+   <tr style=" height : 19.00pt; background : #ffffff;">
+   <td style="width : 51.750pt; background : #ffffff;border-left-style: solid; border-left-width: 1px; border-left-color: #000000; border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">7</p>
+</td>
+   <td style="width : 84.000pt; background : #ffffff;border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">Oct 2016</p>
+</td>
+   <td style="width : 351.751pt; background : #ffffff;border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #000000; vertical-align : top;padding-left: 6.00pt; padding-top: 3.00pt; padding-right: 6.00pt; padding-bottom: 3.00pt;">
+   <p class="FM_TableBody">Updated EEPROM structure to version 0.2</p>
+</td>
+</tr>
+  </table>
+</div>
+ </div>
+</body>
+
+</html>
+
